@@ -1,0 +1,963 @@
+ResumeIndex,Category,BestJobID,BestJobTitle,MatchScore,MissingSkills,ResumeReadability
+0,Data Science,349,Java Developer,0.40651407428644604,['excel'],-482.4755737704917
+1,Data Science,528,Machine Learning,0.253046640994125,"['java', 'sql', 'tensorflow', 'javascript']",-92.88923728813558
+2,Data Science,2063,Machine Learning,0.2181905185434119,[],-169.03499999999997
+3,Data Science,1693,JavaScript Developer,0.40881184518302405,"['java', 'javascript', 'excel']",-716.368881118881
+4,Data Science,716,Database Administrator,0.20406544001296756,['excel'],1.7122448979592093
+5,Data Science,1761,Machine Learning,0.25589085201005857,"['tensorflow', 'keras']",-37.19653846153844
+6,Data Science,2267,Machine Learning,0.514871436843026,['java'],-165.61421052631576
+7,Data Science,1761,Machine Learning,0.6156758237025524,['excel'],-786.3164150943395
+8,Data Science,1761,Machine Learning,0.5214914926553467,"['tensorflow', 'keras', 'excel']",-180.16190476190474
+9,Data Science,2267,Machine Learning,0.4974724156137921,"['java', 'excel']",-422.96650684931495
+10,Data Science,349,Java Developer,0.40651407428644604,['excel'],-482.4755737704917
+11,Data Science,528,Machine Learning,0.253046640994125,"['java', 'sql', 'tensorflow', 'javascript']",-92.88923728813558
+12,Data Science,2063,Machine Learning,0.2181905185434119,[],-169.03499999999997
+13,Data Science,1693,JavaScript Developer,0.40881184518302405,"['java', 'javascript', 'excel']",-716.368881118881
+14,Data Science,716,Database Administrator,0.20406544001296756,['excel'],1.7122448979592093
+15,Data Science,1761,Machine Learning,0.25589085201005857,"['tensorflow', 'keras']",-37.19653846153844
+16,Data Science,2267,Machine Learning,0.514871436843026,['java'],-165.61421052631576
+17,Data Science,1761,Machine Learning,0.6156758237025524,['excel'],-786.3164150943395
+18,Data Science,1761,Machine Learning,0.5214914926553467,"['tensorflow', 'keras', 'excel']",-180.16190476190474
+19,Data Science,2267,Machine Learning,0.4974724156137921,"['java', 'excel']",-422.96650684931495
+20,Data Science,349,Java Developer,0.40651407428644604,['excel'],-482.4755737704917
+21,Data Science,528,Machine Learning,0.253046640994125,"['java', 'sql', 'tensorflow', 'javascript']",-92.88923728813558
+22,Data Science,2063,Machine Learning,0.2181905185434119,[],-169.03499999999997
+23,Data Science,1693,JavaScript Developer,0.40881184518302405,"['java', 'javascript', 'excel']",-716.368881118881
+24,Data Science,716,Database Administrator,0.20406544001296756,['excel'],1.7122448979592093
+25,Data Science,1761,Machine Learning,0.25589085201005857,"['tensorflow', 'keras']",-37.19653846153844
+26,Data Science,2267,Machine Learning,0.514871436843026,['java'],-165.61421052631576
+27,Data Science,1761,Machine Learning,0.6156758237025524,['excel'],-786.3164150943395
+28,Data Science,1761,Machine Learning,0.5214914926553467,"['tensorflow', 'keras', 'excel']",-180.16190476190474
+29,Data Science,2267,Machine Learning,0.4974724156137921,"['java', 'excel']",-422.96650684931495
+30,Data Science,349,Java Developer,0.40651407428644604,['excel'],-482.4755737704917
+31,Data Science,528,Machine Learning,0.253046640994125,"['java', 'sql', 'tensorflow', 'javascript']",-92.88923728813558
+32,Data Science,2063,Machine Learning,0.2181905185434119,[],-169.03499999999997
+33,Data Science,1693,JavaScript Developer,0.40881184518302405,"['java', 'javascript', 'excel']",-716.368881118881
+34,Data Science,716,Database Administrator,0.20406544001296756,['excel'],1.7122448979592093
+35,Data Science,1761,Machine Learning,0.25589085201005857,"['tensorflow', 'keras']",-37.19653846153844
+36,Data Science,2267,Machine Learning,0.514871436843026,['java'],-165.61421052631576
+37,Data Science,1761,Machine Learning,0.6156758237025524,['excel'],-786.3164150943395
+38,Data Science,1761,Machine Learning,0.5214914926553467,"['tensorflow', 'keras', 'excel']",-180.16190476190474
+39,Data Science,2267,Machine Learning,0.4974724156137921,"['java', 'excel']",-422.96650684931495
+40,HR,1290,Full Stack Developer,0.2139927786597468,"['java', 'javascript']",-21.109285714285704
+41,HR,1306,Database Administrator,0.3125821709179079,[],-289.02685920577613
+42,HR,1306,Database Administrator,0.4077456666653363,['excel'],-8.365789473684202
+43,HR,1306,Database Administrator,0.4601102790763695,['excel'],13.105000000000047
+44,HR,1306,Database Administrator,0.4601102790763695,['excel'],13.105000000000047
+45,HR,1306,Database Administrator,0.29676059171403135,['excel'],-39.62999999999997
+46,HR,1306,Database Administrator,0.4892775305753436,['excel'],10.820000000000022
+47,HR,1867,Full Stack Developer,0.1630445312540765,"['java', 'sql', 'javascript', 'excel']",-63.624563106796074
+48,HR,503,iOS Developer,0.3394754202917753,[],-59.72090909090903
+49,HR,1306,Database Administrator,0.29457896219609353,['excel'],-74.01699999999998
+50,HR,88,Java Developer,0.2751412151365157,['javascript'],-61.070609756097554
+51,HR,1290,Full Stack Developer,0.2139927786597468,"['java', 'javascript']",-21.109285714285704
+52,HR,1306,Database Administrator,0.3125821709179079,[],-289.02685920577613
+53,HR,1306,Database Administrator,0.4077456666653363,['excel'],-8.365789473684202
+54,HR,1306,Database Administrator,0.4601102790763695,['excel'],13.105000000000047
+55,HR,1306,Database Administrator,0.4601102790763695,['excel'],13.105000000000047
+56,HR,1306,Database Administrator,0.29676059171403135,['excel'],-39.62999999999997
+57,HR,1306,Database Administrator,0.4892775305753436,['excel'],10.820000000000022
+58,HR,1867,Full Stack Developer,0.1630445312540765,"['java', 'sql', 'javascript', 'excel']",-63.624563106796074
+59,HR,503,iOS Developer,0.3394754202917753,[],-59.72090909090903
+60,HR,1306,Database Administrator,0.29457896219609353,['excel'],-74.01699999999998
+61,HR,88,Java Developer,0.2751412151365157,['javascript'],-61.070609756097554
+62,HR,1290,Full Stack Developer,0.2139927786597468,"['java', 'javascript']",-21.109285714285704
+63,HR,1306,Database Administrator,0.3125821709179079,[],-289.02685920577613
+64,HR,1306,Database Administrator,0.4077456666653363,['excel'],-8.365789473684202
+65,HR,1306,Database Administrator,0.4601102790763695,['excel'],13.105000000000047
+66,HR,1306,Database Administrator,0.4601102790763695,['excel'],13.105000000000047
+67,HR,1306,Database Administrator,0.29676059171403135,['excel'],-39.62999999999997
+68,HR,1306,Database Administrator,0.4892775305753436,['excel'],10.820000000000022
+69,HR,1867,Full Stack Developer,0.1630445312540765,"['java', 'sql', 'javascript', 'excel']",-63.624563106796074
+70,HR,503,iOS Developer,0.3394754202917753,[],-59.72090909090903
+71,HR,1306,Database Administrator,0.29457896219609353,['excel'],-74.01699999999998
+72,HR,88,Java Developer,0.2751412151365157,['javascript'],-61.070609756097554
+73,HR,1290,Full Stack Developer,0.2139927786597468,"['java', 'javascript']",-21.109285714285704
+74,HR,1306,Database Administrator,0.3125821709179079,[],-289.02685920577613
+75,HR,1306,Database Administrator,0.4077456666653363,['excel'],-8.365789473684202
+76,HR,1306,Database Administrator,0.4601102790763695,['excel'],13.105000000000047
+77,HR,1306,Database Administrator,0.4601102790763695,['excel'],13.105000000000047
+78,HR,1306,Database Administrator,0.29676059171403135,['excel'],-39.62999999999997
+79,HR,1306,Database Administrator,0.4892775305753436,['excel'],10.820000000000022
+80,HR,1867,Full Stack Developer,0.1630445312540765,"['java', 'sql', 'javascript', 'excel']",-63.624563106796074
+81,HR,503,iOS Developer,0.3394754202917753,[],-59.72090909090903
+82,HR,1306,Database Administrator,0.29457896219609353,['excel'],-74.01699999999998
+83,HR,88,Java Developer,0.2751412151365157,['javascript'],-61.070609756097554
+84,Advocate,1627,DevOps Engineer,0.22498803840012888,"['sql', 'python', 'excel']",-150.7309036144578
+85,Advocate,946,Network Administrator,0.126302173049526,[],-14.609999999999957
+86,Advocate,1172,Node js developer,0.13146463060560765,"['java', 'javascript']",-18.235000000000014
+87,Advocate,1929,Node js developer,0.17491093653308787,['aws'],-49.65499999999997
+88,Advocate,684,iOS Developer,0.23568075765392246,"['java', 'javascript', 'excel']",-263.4711235955056
+89,Advocate,1758,Database Administrator,0.15499979785906684,['sql'],-78.84642857142853
+90,Advocate,1273,Wordpress Developer,0.1606573972806391,"['java', 'javascript', 'excel']",-56.97285714285715
+91,Advocate,1658,Java Developer,0.16771454689525525,['java'],-126.33666666666662
+92,Advocate,1641,Node js developer,0.2634502461812095,['java'],-48.491774193548366
+93,Advocate,1273,Wordpress Developer,0.16799200681438478,"['java', 'javascript', 'excel']",-34.154999999999944
+94,Advocate,1627,DevOps Engineer,0.22498803840012888,"['sql', 'python', 'excel']",-150.7309036144578
+95,Advocate,946,Network Administrator,0.126302173049526,[],-14.609999999999957
+96,Advocate,1172,Node js developer,0.13146463060560765,"['java', 'javascript']",-18.235000000000014
+97,Advocate,1929,Node js developer,0.17491093653308787,['aws'],-49.65499999999997
+98,Advocate,684,iOS Developer,0.23568075765392246,"['java', 'javascript', 'excel']",-263.4711235955056
+99,Advocate,1758,Database Administrator,0.15499979785906684,['sql'],-78.84642857142853
+100,Advocate,1273,Wordpress Developer,0.1606573972806391,"['java', 'javascript', 'excel']",-56.97285714285715
+101,Advocate,1658,Java Developer,0.16771454689525525,['java'],-126.33666666666662
+102,Advocate,1641,Node js developer,0.2634502461812095,['java'],-48.491774193548366
+103,Advocate,1273,Wordpress Developer,0.16799200681438478,"['java', 'javascript', 'excel']",-34.154999999999944
+104,Arts,503,iOS Developer,0.4488197022688568,[],-147.27272727272725
+105,Arts,2248,PHP Developer,0.16065007163402006,[],-82.07499999999996
+106,Arts,950,Software Engineer,0.2477560793986475,['react'],-772.9085999999999
+107,Arts,2102,Database Administrator,0.15374236422983126,[],-13.679999999999978
+108,Arts,781,Flutter Developer,0.14136538722378422,['flutter'],-41.08142857142852
+109,Arts,2201,Django Developer,0.13958897710172863,"['django', 'python']",-104.76088495575218
+110,Arts,503,iOS Developer,0.4488197022688568,[],-147.27272727272725
+111,Arts,2248,PHP Developer,0.16065007163402006,[],-82.07499999999996
+112,Arts,950,Software Engineer,0.2477560793986475,['react'],-772.9085999999999
+113,Arts,2102,Database Administrator,0.15374236422983126,[],-13.679999999999978
+114,Arts,781,Flutter Developer,0.14136538722378422,['flutter'],-41.08142857142852
+115,Arts,2201,Django Developer,0.13958897710172863,"['django', 'python']",-104.76088495575218
+116,Arts,503,iOS Developer,0.4488197022688568,[],-147.27272727272725
+117,Arts,2248,PHP Developer,0.16065007163402006,[],-82.07499999999996
+118,Arts,950,Software Engineer,0.2477560793986475,['react'],-772.9085999999999
+119,Arts,2102,Database Administrator,0.15374236422983126,[],-13.679999999999978
+120,Arts,781,Flutter Developer,0.14136538722378422,['flutter'],-41.08142857142852
+121,Arts,2201,Django Developer,0.13958897710172863,"['django', 'python']",-104.76088495575218
+122,Arts,503,iOS Developer,0.4488197022688568,[],-147.27272727272725
+123,Arts,2248,PHP Developer,0.16065007163402006,[],-82.07499999999996
+124,Arts,950,Software Engineer,0.2477560793986475,['react'],-772.9085999999999
+125,Arts,2102,Database Administrator,0.15374236422983126,[],-13.679999999999978
+126,Arts,781,Flutter Developer,0.14136538722378422,['flutter'],-41.08142857142852
+127,Arts,2201,Django Developer,0.13958897710172863,"['django', 'python']",-104.76088495575218
+128,Arts,503,iOS Developer,0.4488197022688568,[],-147.27272727272725
+129,Arts,2248,PHP Developer,0.16065007163402006,[],-82.07499999999996
+130,Arts,950,Software Engineer,0.2477560793986475,['react'],-772.9085999999999
+131,Arts,2102,Database Administrator,0.15374236422983126,[],-13.679999999999978
+132,Arts,781,Flutter Developer,0.14136538722378422,['flutter'],-41.08142857142852
+133,Arts,2201,Django Developer,0.13958897710172863,"['django', 'python']",-104.76088495575218
+134,Arts,503,iOS Developer,0.4488197022688568,[],-147.27272727272725
+135,Arts,2248,PHP Developer,0.16065007163402006,[],-82.07499999999996
+136,Arts,950,Software Engineer,0.2477560793986475,['react'],-772.9085999999999
+137,Arts,2102,Database Administrator,0.15374236422983126,[],-13.679999999999978
+138,Arts,781,Flutter Developer,0.14136538722378422,['flutter'],-41.08142857142852
+139,Arts,2201,Django Developer,0.13958897710172863,"['django', 'python']",-104.76088495575218
+140,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+141,Web Designing,1975,PHP Developer,0.3607412585226053,['react'],-353.77172413793096
+142,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+143,Web Designing,1598,Java Developer,0.21254488206160024,"['java', 'sql', 'javascript', 'excel']",-73.48103896103893
+144,Web Designing,1400,JavaScript Developer,0.2846495610496476,[],-342.3636599423631
+145,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+146,Web Designing,1975,PHP Developer,0.3607412585226053,['react'],-353.77172413793096
+147,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+148,Web Designing,1598,Java Developer,0.21254488206160024,"['java', 'sql', 'javascript', 'excel']",-73.48103896103893
+149,Web Designing,1400,JavaScript Developer,0.2846495610496476,[],-342.3636599423631
+150,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+151,Web Designing,1975,PHP Developer,0.3607412585226053,['react'],-353.77172413793096
+152,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+153,Web Designing,1598,Java Developer,0.21254488206160024,"['java', 'sql', 'javascript', 'excel']",-73.48103896103893
+154,Web Designing,1400,JavaScript Developer,0.2846495610496476,[],-342.3636599423631
+155,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+156,Web Designing,1975,PHP Developer,0.3607412585226053,['react'],-353.77172413793096
+157,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+158,Web Designing,1598,Java Developer,0.21254488206160024,"['java', 'sql', 'javascript', 'excel']",-73.48103896103893
+159,Web Designing,1400,JavaScript Developer,0.2846495610496476,[],-342.3636599423631
+160,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+161,Web Designing,1975,PHP Developer,0.3607412585226053,['react'],-353.77172413793096
+162,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+163,Web Designing,1598,Java Developer,0.21254488206160024,"['java', 'sql', 'javascript', 'excel']",-73.48103896103893
+164,Web Designing,1400,JavaScript Developer,0.2846495610496476,[],-342.3636599423631
+165,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+166,Web Designing,1975,PHP Developer,0.3607412585226053,['react'],-353.77172413793096
+167,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+168,Web Designing,1598,Java Developer,0.21254488206160024,"['java', 'sql', 'javascript', 'excel']",-73.48103896103893
+169,Web Designing,1400,JavaScript Developer,0.2846495610496476,[],-342.3636599423631
+170,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+171,Web Designing,1975,PHP Developer,0.3607412585226053,['react'],-353.77172413793096
+172,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+173,Web Designing,1598,Java Developer,0.21254488206160024,"['java', 'sql', 'javascript', 'excel']",-73.48103896103893
+174,Web Designing,1400,JavaScript Developer,0.2846495610496476,[],-342.3636599423631
+175,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+176,Web Designing,1975,PHP Developer,0.3607412585226053,['react'],-353.77172413793096
+177,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+178,Web Designing,1598,Java Developer,0.21254488206160024,"['java', 'sql', 'javascript', 'excel']",-73.48103896103893
+179,Web Designing,1400,JavaScript Developer,0.2846495610496476,[],-342.3636599423631
+180,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+181,Web Designing,1975,PHP Developer,0.3607412585226053,['react'],-353.77172413793096
+182,Web Designing,87,Database Administrator,0.2477124318530373,['excel'],-327.2115709969788
+183,Web Designing,1598,Java Developer,0.21254488206160024,"['java', 'sql', 'javascript', 'excel']",-73.48103896103893
+184,Web Designing,1400,JavaScript Developer,0.2846495610496476,[],-342.3636599423631
+185,Mechanical Engineer,2003,Database Administrator,0.2913029922284978,['sap'],-955.2185069817399
+186,Mechanical Engineer,503,iOS Developer,0.24143822580043803,[],-146.63944444444442
+187,Mechanical Engineer,1753,Full Stack Developer,0.19787532173674943,[],-86.71499999999997
+188,Mechanical Engineer,1753,Full Stack Developer,0.22327391199018123,[],-204.52071428571426
+189,Mechanical Engineer,34,Machine Learning,0.2551355965660639,"['aws', 'machine learning']",-125.11039999999996
+190,Mechanical Engineer,2003,Database Administrator,0.2913029922284978,['sap'],-955.2185069817399
+191,Mechanical Engineer,503,iOS Developer,0.24143822580043803,[],-146.63944444444442
+192,Mechanical Engineer,1753,Full Stack Developer,0.19787532173674943,[],-86.71499999999997
+193,Mechanical Engineer,1753,Full Stack Developer,0.22327391199018123,[],-204.52071428571426
+194,Mechanical Engineer,34,Machine Learning,0.2551355965660639,"['aws', 'machine learning']",-125.11039999999996
+195,Mechanical Engineer,2003,Database Administrator,0.2913029922284978,['sap'],-955.2185069817399
+196,Mechanical Engineer,503,iOS Developer,0.24143822580043803,[],-146.63944444444442
+197,Mechanical Engineer,1753,Full Stack Developer,0.19787532173674943,[],-86.71499999999997
+198,Mechanical Engineer,1753,Full Stack Developer,0.22327391199018123,[],-204.52071428571426
+199,Mechanical Engineer,34,Machine Learning,0.2551355965660639,"['aws', 'machine learning']",-125.11039999999996
+200,Mechanical Engineer,2003,Database Administrator,0.2913029922284978,['sap'],-955.2185069817399
+201,Mechanical Engineer,503,iOS Developer,0.24143822580043803,[],-146.63944444444442
+202,Mechanical Engineer,1753,Full Stack Developer,0.19787532173674943,[],-86.71499999999997
+203,Mechanical Engineer,1753,Full Stack Developer,0.22327391199018123,[],-204.52071428571426
+204,Mechanical Engineer,34,Machine Learning,0.2551355965660639,"['aws', 'machine learning']",-125.11039999999996
+205,Mechanical Engineer,2003,Database Administrator,0.2913029922284978,['sap'],-955.2185069817399
+206,Mechanical Engineer,503,iOS Developer,0.24143822580043803,[],-146.63944444444442
+207,Mechanical Engineer,1753,Full Stack Developer,0.19787532173674943,[],-86.71499999999997
+208,Mechanical Engineer,1753,Full Stack Developer,0.22327391199018123,[],-204.52071428571426
+209,Mechanical Engineer,34,Machine Learning,0.2551355965660639,"['aws', 'machine learning']",-125.11039999999996
+210,Mechanical Engineer,2003,Database Administrator,0.2913029922284978,['sap'],-955.2185069817399
+211,Mechanical Engineer,503,iOS Developer,0.24143822580043803,[],-146.63944444444442
+212,Mechanical Engineer,1753,Full Stack Developer,0.19787532173674943,[],-86.71499999999997
+213,Mechanical Engineer,1753,Full Stack Developer,0.22327391199018123,[],-204.52071428571426
+214,Mechanical Engineer,34,Machine Learning,0.2551355965660639,"['aws', 'machine learning']",-125.11039999999996
+215,Mechanical Engineer,2003,Database Administrator,0.2913029922284978,['sap'],-955.2185069817399
+216,Mechanical Engineer,503,iOS Developer,0.24143822580043803,[],-146.63944444444442
+217,Mechanical Engineer,1753,Full Stack Developer,0.19787532173674943,[],-86.71499999999997
+218,Mechanical Engineer,1753,Full Stack Developer,0.22327391199018123,[],-204.52071428571426
+219,Mechanical Engineer,34,Machine Learning,0.2551355965660639,"['aws', 'machine learning']",-125.11039999999996
+220,Mechanical Engineer,2003,Database Administrator,0.2913029922284978,['sap'],-955.2185069817399
+221,Mechanical Engineer,503,iOS Developer,0.24143822580043803,[],-146.63944444444442
+222,Mechanical Engineer,1753,Full Stack Developer,0.19787532173674943,[],-86.71499999999997
+223,Mechanical Engineer,1753,Full Stack Developer,0.22327391199018123,[],-204.52071428571426
+224,Mechanical Engineer,34,Machine Learning,0.2551355965660639,"['aws', 'machine learning']",-125.11039999999996
+225,Sales,2188,Software Engineer,0.1913669823575201,['sql'],-41.78523255813951
+226,Sales,1725,Machine Learning,0.32630229238294994,"['sql', 'machine learning', 'python', 'excel']",-76.68499999999996
+227,Sales,1384,JavaScript Developer,0.35967248371048255,[],-357.58302139037426
+228,Sales,1384,JavaScript Developer,0.23560371993598672,['excel'],-148.23355932203387
+229,Sales,1725,Machine Learning,0.2830629645471732,"['sql', 'machine learning', 'python', 'excel']",-95.30157894736838
+230,Sales,2188,Software Engineer,0.1913669823575201,['sql'],-41.78523255813951
+231,Sales,1725,Machine Learning,0.32630229238294994,"['sql', 'machine learning', 'python', 'excel']",-76.68499999999996
+232,Sales,1384,JavaScript Developer,0.35967248371048255,[],-357.58302139037426
+233,Sales,1384,JavaScript Developer,0.23560371993598672,['excel'],-148.23355932203387
+234,Sales,1725,Machine Learning,0.2830629645471732,"['sql', 'machine learning', 'python', 'excel']",-95.30157894736838
+235,Sales,2188,Software Engineer,0.1913669823575201,['sql'],-41.78523255813951
+236,Sales,1725,Machine Learning,0.32630229238294994,"['sql', 'machine learning', 'python', 'excel']",-76.68499999999996
+237,Sales,1384,JavaScript Developer,0.35967248371048255,[],-357.58302139037426
+238,Sales,1384,JavaScript Developer,0.23560371993598672,['excel'],-148.23355932203387
+239,Sales,1725,Machine Learning,0.2830629645471732,"['sql', 'machine learning', 'python', 'excel']",-95.30157894736838
+240,Sales,2188,Software Engineer,0.1913669823575201,['sql'],-41.78523255813951
+241,Sales,1725,Machine Learning,0.32630229238294994,"['sql', 'machine learning', 'python', 'excel']",-76.68499999999996
+242,Sales,1384,JavaScript Developer,0.35967248371048255,[],-357.58302139037426
+243,Sales,1384,JavaScript Developer,0.23560371993598672,['excel'],-148.23355932203387
+244,Sales,1725,Machine Learning,0.2830629645471732,"['sql', 'machine learning', 'python', 'excel']",-95.30157894736838
+245,Sales,2188,Software Engineer,0.1913669823575201,['sql'],-41.78523255813951
+246,Sales,1725,Machine Learning,0.32630229238294994,"['sql', 'machine learning', 'python', 'excel']",-76.68499999999996
+247,Sales,1384,JavaScript Developer,0.35967248371048255,[],-357.58302139037426
+248,Sales,1384,JavaScript Developer,0.23560371993598672,['excel'],-148.23355932203387
+249,Sales,1725,Machine Learning,0.2830629645471732,"['sql', 'machine learning', 'python', 'excel']",-95.30157894736838
+250,Sales,2188,Software Engineer,0.1913669823575201,['sql'],-41.78523255813951
+251,Sales,1725,Machine Learning,0.32630229238294994,"['sql', 'machine learning', 'python', 'excel']",-76.68499999999996
+252,Sales,1384,JavaScript Developer,0.35967248371048255,[],-357.58302139037426
+253,Sales,1384,JavaScript Developer,0.23560371993598672,['excel'],-148.23355932203387
+254,Sales,1725,Machine Learning,0.2830629645471732,"['sql', 'machine learning', 'python', 'excel']",-95.30157894736838
+255,Sales,2188,Software Engineer,0.1913669823575201,['sql'],-41.78523255813951
+256,Sales,1725,Machine Learning,0.32630229238294994,"['sql', 'machine learning', 'python', 'excel']",-76.68499999999996
+257,Sales,1384,JavaScript Developer,0.35967248371048255,[],-357.58302139037426
+258,Sales,1384,JavaScript Developer,0.23560371993598672,['excel'],-148.23355932203387
+259,Sales,1725,Machine Learning,0.2830629645471732,"['sql', 'machine learning', 'python', 'excel']",-95.30157894736838
+260,Sales,2188,Software Engineer,0.1913669823575201,['sql'],-41.78523255813951
+261,Sales,1725,Machine Learning,0.32630229238294994,"['sql', 'machine learning', 'python', 'excel']",-76.68499999999996
+262,Sales,1384,JavaScript Developer,0.35967248371048255,[],-357.58302139037426
+263,Sales,1384,JavaScript Developer,0.23560371993598672,['excel'],-148.23355932203387
+264,Sales,1725,Machine Learning,0.2830629645471732,"['sql', 'machine learning', 'python', 'excel']",-95.30157894736838
+265,Health and fitness,781,Flutter Developer,0.19954845988908068,['flutter'],-50.92999999999998
+266,Health and fitness,308,Java Developer,0.13529794073494456,"['java', 'javascript']",-119.19499999999996
+267,Health and fitness,2201,Django Developer,0.19201505904433303,"['django', 'python']",-243.5815116279069
+268,Health and fitness,308,Java Developer,0.19744518409412046,"['java', 'javascript']",-264.6940304182509
+269,Health and fitness,794,Full Stack Developer,0.23428128081962488,"['sql', 'java', 'javascript', 'aws', 'react', 'python']",-158.49872832369937
+270,Health and fitness,1241,Full Stack Developer,0.31755712184258966,"['java', 'react', 'javascript']",-267.4977272727273
+271,Health and fitness,781,Flutter Developer,0.19954845988908068,['flutter'],-50.92999999999998
+272,Health and fitness,308,Java Developer,0.13529794073494456,"['java', 'javascript']",-119.19499999999996
+273,Health and fitness,2201,Django Developer,0.19201505904433303,"['django', 'python']",-243.5815116279069
+274,Health and fitness,308,Java Developer,0.19744518409412046,"['java', 'javascript']",-264.6940304182509
+275,Health and fitness,794,Full Stack Developer,0.23428128081962488,"['sql', 'java', 'javascript', 'aws', 'react', 'python']",-158.49872832369937
+276,Health and fitness,1241,Full Stack Developer,0.31755712184258966,"['java', 'react', 'javascript']",-267.4977272727273
+277,Health and fitness,781,Flutter Developer,0.19954845988908068,['flutter'],-50.92999999999998
+278,Health and fitness,308,Java Developer,0.13529794073494456,"['java', 'javascript']",-119.19499999999996
+279,Health and fitness,2201,Django Developer,0.19201505904433303,"['django', 'python']",-243.5815116279069
+280,Health and fitness,308,Java Developer,0.19744518409412046,"['java', 'javascript']",-264.6940304182509
+281,Health and fitness,794,Full Stack Developer,0.23428128081962488,"['sql', 'java', 'javascript', 'aws', 'react', 'python']",-158.49872832369937
+282,Health and fitness,1241,Full Stack Developer,0.31755712184258966,"['java', 'react', 'javascript']",-267.4977272727273
+283,Health and fitness,781,Flutter Developer,0.19954845988908068,['flutter'],-50.92999999999998
+284,Health and fitness,308,Java Developer,0.13529794073494456,"['java', 'javascript']",-119.19499999999996
+285,Health and fitness,2201,Django Developer,0.19201505904433303,"['django', 'python']",-243.5815116279069
+286,Health and fitness,308,Java Developer,0.19744518409412046,"['java', 'javascript']",-264.6940304182509
+287,Health and fitness,794,Full Stack Developer,0.23428128081962488,"['sql', 'java', 'javascript', 'aws', 'react', 'python']",-158.49872832369937
+288,Health and fitness,1241,Full Stack Developer,0.31755712184258966,"['java', 'react', 'javascript']",-267.4977272727273
+289,Health and fitness,781,Flutter Developer,0.19954845988908068,['flutter'],-50.92999999999998
+290,Health and fitness,308,Java Developer,0.13529794073494456,"['java', 'javascript']",-119.19499999999996
+291,Health and fitness,2201,Django Developer,0.19201505904433303,"['django', 'python']",-243.5815116279069
+292,Health and fitness,308,Java Developer,0.19744518409412046,"['java', 'javascript']",-264.6940304182509
+293,Health and fitness,794,Full Stack Developer,0.23428128081962488,"['sql', 'java', 'javascript', 'aws', 'react', 'python']",-158.49872832369937
+294,Health and fitness,1241,Full Stack Developer,0.31755712184258966,"['java', 'react', 'javascript']",-267.4977272727273
+295,Civil Engineer,1034,Database Administrator,0.32110669306133605,[],-666.9443946188339
+296,Civil Engineer,585,DevOps Engineer,0.2224163319319018,[],-53.722999999999985
+297,Civil Engineer,321,Network Administrator,0.21400839700520746,['sap'],-343.3571428571428
+298,Civil Engineer,669,Database Administrator,0.28934948127194693,['excel'],-342.21130434782606
+299,Civil Engineer,470,DevOps Engineer,0.26092377612736894,[],-283.40210526315786
+300,Civil Engineer,585,DevOps Engineer,0.19634257120960424,[],-80.91824324324321
+301,Civil Engineer,1034,Database Administrator,0.32110669306133605,[],-666.9443946188339
+302,Civil Engineer,585,DevOps Engineer,0.2224163319319018,[],-53.722999999999985
+303,Civil Engineer,321,Network Administrator,0.21400839700520746,['sap'],-343.3571428571428
+304,Civil Engineer,669,Database Administrator,0.28934948127194693,['excel'],-342.21130434782606
+305,Civil Engineer,470,DevOps Engineer,0.26092377612736894,[],-283.40210526315786
+306,Civil Engineer,585,DevOps Engineer,0.19634257120960424,[],-80.91824324324321
+307,Civil Engineer,1034,Database Administrator,0.32110669306133605,[],-666.9443946188339
+308,Civil Engineer,585,DevOps Engineer,0.2224163319319018,[],-53.722999999999985
+309,Civil Engineer,321,Network Administrator,0.21400839700520746,['sap'],-343.3571428571428
+310,Civil Engineer,669,Database Administrator,0.28934948127194693,['excel'],-342.21130434782606
+311,Civil Engineer,470,DevOps Engineer,0.26092377612736894,[],-283.40210526315786
+312,Civil Engineer,585,DevOps Engineer,0.19634257120960424,[],-80.91824324324321
+313,Civil Engineer,1034,Database Administrator,0.32110669306133605,[],-666.9443946188339
+314,Civil Engineer,585,DevOps Engineer,0.2224163319319018,[],-53.722999999999985
+315,Civil Engineer,321,Network Administrator,0.21400839700520746,['sap'],-343.3571428571428
+316,Civil Engineer,669,Database Administrator,0.28934948127194693,['excel'],-342.21130434782606
+317,Civil Engineer,470,DevOps Engineer,0.26092377612736894,[],-283.40210526315786
+318,Civil Engineer,585,DevOps Engineer,0.19634257120960424,[],-80.91824324324321
+319,Java Developer,1108,Java Developer,0.3304669220457144,[],-40.754999999999995
+320,Java Developer,1619,Database Administrator,0.2400114157996162,['excel'],-235.0629875518672
+321,Java Developer,2245,Backend Developer,0.3423439600158882,['javascript'],-223.4019565217391
+322,Java Developer,1327,Java Developer,0.2466103281399543,[],-224.3188709677419
+323,Java Developer,1108,Java Developer,0.373708011444403,[],-157.8028301886792
+324,Java Developer,710,Java Developer,0.2435372796380547,[],-57.096999999999966
+325,Java Developer,937,Java Developer,0.3231531886434539,[],-104.37122137404575
+326,Java Developer,937,Java Developer,0.3231531886434539,[],-104.37122137404575
+327,Java Developer,937,Java Developer,0.30104108434254956,['javascript'],-186.74819587628863
+328,Java Developer,1357,Backend Developer,0.35976623902872845,[],-78.31107142857142
+329,Java Developer,937,Java Developer,0.4959482104363254,[],-131.20134228187916
+330,Java Developer,937,Java Developer,0.3216294836910386,[],-364.2093718592964
+331,Java Developer,505,Java Developer,0.3151154903149015,['sql'],-48.41999999999999
+332,Java Developer,168,Java Developer,0.27901012907678513,['excel'],-176.5754545454545
+333,Java Developer,1108,Java Developer,0.3304669220457144,[],-40.754999999999995
+334,Java Developer,1619,Database Administrator,0.2400114157996162,['excel'],-235.0629875518672
+335,Java Developer,2245,Backend Developer,0.3423439600158882,['javascript'],-223.4019565217391
+336,Java Developer,1327,Java Developer,0.2466103281399543,[],-224.3188709677419
+337,Java Developer,1108,Java Developer,0.373708011444403,[],-157.8028301886792
+338,Java Developer,710,Java Developer,0.2435372796380547,[],-57.096999999999966
+339,Java Developer,937,Java Developer,0.3231531886434539,[],-104.37122137404575
+340,Java Developer,937,Java Developer,0.3231531886434539,[],-104.37122137404575
+341,Java Developer,937,Java Developer,0.30104108434254956,['javascript'],-186.74819587628863
+342,Java Developer,1357,Backend Developer,0.35976623902872845,[],-78.31107142857142
+343,Java Developer,937,Java Developer,0.4959482104363254,[],-131.20134228187916
+344,Java Developer,937,Java Developer,0.3216294836910386,[],-364.2093718592964
+345,Java Developer,505,Java Developer,0.3151154903149015,['sql'],-48.41999999999999
+346,Java Developer,168,Java Developer,0.27901012907678513,['excel'],-176.5754545454545
+347,Java Developer,1108,Java Developer,0.3304669220457144,[],-40.754999999999995
+348,Java Developer,1619,Database Administrator,0.2400114157996162,['excel'],-235.0629875518672
+349,Java Developer,2245,Backend Developer,0.3423439600158882,['javascript'],-223.4019565217391
+350,Java Developer,1327,Java Developer,0.2466103281399543,[],-224.3188709677419
+351,Java Developer,1108,Java Developer,0.373708011444403,[],-157.8028301886792
+352,Java Developer,710,Java Developer,0.2435372796380547,[],-57.096999999999966
+353,Java Developer,937,Java Developer,0.3231531886434539,[],-104.37122137404575
+354,Java Developer,937,Java Developer,0.3231531886434539,[],-104.37122137404575
+355,Java Developer,937,Java Developer,0.30104108434254956,['javascript'],-186.74819587628863
+356,Java Developer,1357,Backend Developer,0.35976623902872845,[],-78.31107142857142
+357,Java Developer,937,Java Developer,0.4959482104363254,[],-131.20134228187916
+358,Java Developer,937,Java Developer,0.3216294836910386,[],-364.2093718592964
+359,Java Developer,505,Java Developer,0.3151154903149015,['sql'],-48.41999999999999
+360,Java Developer,168,Java Developer,0.27901012907678513,['excel'],-176.5754545454545
+361,Java Developer,1108,Java Developer,0.3304669220457144,[],-40.754999999999995
+362,Java Developer,1619,Database Administrator,0.2400114157996162,['excel'],-235.0629875518672
+363,Java Developer,2245,Backend Developer,0.3423439600158882,['javascript'],-223.4019565217391
+364,Java Developer,1327,Java Developer,0.2466103281399543,[],-224.3188709677419
+365,Java Developer,1108,Java Developer,0.373708011444403,[],-157.8028301886792
+366,Java Developer,710,Java Developer,0.2435372796380547,[],-57.096999999999966
+367,Java Developer,937,Java Developer,0.3231531886434539,[],-104.37122137404575
+368,Java Developer,937,Java Developer,0.3231531886434539,[],-104.37122137404575
+369,Java Developer,937,Java Developer,0.30104108434254956,['javascript'],-186.74819587628863
+370,Java Developer,1357,Backend Developer,0.35976623902872845,[],-78.31107142857142
+371,Java Developer,937,Java Developer,0.4959482104363254,[],-131.20134228187916
+372,Java Developer,937,Java Developer,0.3216294836910386,[],-364.2093718592964
+373,Java Developer,505,Java Developer,0.3151154903149015,['sql'],-48.41999999999999
+374,Java Developer,168,Java Developer,0.27901012907678513,['excel'],-176.5754545454545
+375,Java Developer,1108,Java Developer,0.3304669220457144,[],-40.754999999999995
+376,Java Developer,1619,Database Administrator,0.2400114157996162,['excel'],-235.0629875518672
+377,Java Developer,2245,Backend Developer,0.3423439600158882,['javascript'],-223.4019565217391
+378,Java Developer,1327,Java Developer,0.2466103281399543,[],-224.3188709677419
+379,Java Developer,1108,Java Developer,0.373708011444403,[],-157.8028301886792
+380,Java Developer,710,Java Developer,0.2435372796380547,[],-57.096999999999966
+381,Java Developer,937,Java Developer,0.3231531886434539,[],-104.37122137404575
+382,Java Developer,937,Java Developer,0.3231531886434539,[],-104.37122137404575
+383,Java Developer,937,Java Developer,0.30104108434254956,['javascript'],-186.74819587628863
+384,Java Developer,1357,Backend Developer,0.35976623902872845,[],-78.31107142857142
+385,Java Developer,937,Java Developer,0.4959482104363254,[],-131.20134228187916
+386,Java Developer,937,Java Developer,0.3216294836910386,[],-364.2093718592964
+387,Java Developer,505,Java Developer,0.3151154903149015,['sql'],-48.41999999999999
+388,Java Developer,168,Java Developer,0.27901012907678513,['excel'],-176.5754545454545
+389,Java Developer,1108,Java Developer,0.3304669220457144,[],-40.754999999999995
+390,Java Developer,1619,Database Administrator,0.2400114157996162,['excel'],-235.0629875518672
+391,Java Developer,2245,Backend Developer,0.3423439600158882,['javascript'],-223.4019565217391
+392,Java Developer,1327,Java Developer,0.2466103281399543,[],-224.3188709677419
+393,Java Developer,1108,Java Developer,0.373708011444403,[],-157.8028301886792
+394,Java Developer,710,Java Developer,0.2435372796380547,[],-57.096999999999966
+395,Java Developer,937,Java Developer,0.3231531886434539,[],-104.37122137404575
+396,Java Developer,937,Java Developer,0.3231531886434539,[],-104.37122137404575
+397,Java Developer,937,Java Developer,0.30104108434254956,['javascript'],-186.74819587628863
+398,Java Developer,1357,Backend Developer,0.35976623902872845,[],-78.31107142857142
+399,Java Developer,937,Java Developer,0.4959482104363254,[],-131.20134228187916
+400,Java Developer,937,Java Developer,0.3216294836910386,[],-364.2093718592964
+401,Java Developer,505,Java Developer,0.3151154903149015,['sql'],-48.41999999999999
+402,Java Developer,168,Java Developer,0.27901012907678513,['excel'],-176.5754545454545
+403,Business Analyst,1957,Node js developer,0.275341994511543,"['java', 'react', 'javascript']",-246.24537549407108
+404,Business Analyst,1550,PHP Developer,0.33197794110029016,[],-205.20999999999995
+405,Business Analyst,1883,Full Stack Developer,0.30545784971166656,[],-666.7667016491753
+406,Business Analyst,1390,Software Engineer,0.4105563929615291,['aws'],-1071.7782954545453
+407,Business Analyst,979,JavaScript Developer,0.1609553912109262,"['sql', 'react', 'javascript']",-169.077891566265
+408,Business Analyst,2041,Database Administrator,0.3169600451593069,[],-145.38624999999996
+409,Business Analyst,1883,Full Stack Developer,0.30545784971166656,[],-666.7667016491753
+410,Business Analyst,1390,Software Engineer,0.4105563929615291,['aws'],-1071.7782954545453
+411,Business Analyst,979,JavaScript Developer,0.1609553912109262,"['sql', 'react', 'javascript']",-169.077891566265
+412,Business Analyst,2041,Database Administrator,0.3169600451593069,[],-145.38624999999996
+413,Business Analyst,1883,Full Stack Developer,0.30545784971166656,[],-666.7667016491753
+414,Business Analyst,1390,Software Engineer,0.4105563929615291,['aws'],-1071.7782954545453
+415,Business Analyst,979,JavaScript Developer,0.1609553912109262,"['sql', 'react', 'javascript']",-169.077891566265
+416,Business Analyst,2041,Database Administrator,0.3169600451593069,[],-145.38624999999996
+417,Business Analyst,1957,Node js developer,0.275341994511543,"['java', 'react', 'javascript']",-246.24537549407108
+418,Business Analyst,1550,PHP Developer,0.33197794110029016,[],-205.20999999999995
+419,Business Analyst,1883,Full Stack Developer,0.30545784971166656,[],-666.7667016491753
+420,Business Analyst,1390,Software Engineer,0.4105563929615291,['aws'],-1071.7782954545453
+421,Business Analyst,979,JavaScript Developer,0.1609553912109262,"['sql', 'react', 'javascript']",-169.077891566265
+422,Business Analyst,2041,Database Administrator,0.3169600451593069,[],-145.38624999999996
+423,Business Analyst,1883,Full Stack Developer,0.30545784971166656,[],-666.7667016491753
+424,Business Analyst,1390,Software Engineer,0.4105563929615291,['aws'],-1071.7782954545453
+425,Business Analyst,979,JavaScript Developer,0.1609553912109262,"['sql', 'react', 'javascript']",-169.077891566265
+426,Business Analyst,2041,Database Administrator,0.3169600451593069,[],-145.38624999999996
+427,Business Analyst,1883,Full Stack Developer,0.30545784971166656,[],-666.7667016491753
+428,Business Analyst,1390,Software Engineer,0.4105563929615291,['aws'],-1071.7782954545453
+429,Business Analyst,979,JavaScript Developer,0.1609553912109262,"['sql', 'react', 'javascript']",-169.077891566265
+430,Business Analyst,2041,Database Administrator,0.3169600451593069,[],-145.38624999999996
+431,SAP Developer,1009,JavaScript Developer,0.38562100454085596,['javascript'],-533.4108671586715
+432,SAP Developer,1693,JavaScript Developer,0.41232414738602263,"['java', 'javascript', 'excel']",-889.1538932146829
+433,SAP Developer,1693,JavaScript Developer,0.3055402514435146,"['java', 'javascript', 'excel']",-351.7293871866295
+434,SAP Developer,1693,JavaScript Developer,0.34801498469646436,"['java', 'javascript', 'excel']",-113.8380769230769
+435,SAP Developer,1009,JavaScript Developer,0.5143452351087863,"['java', 'sql', 'javascript']",-126.58584745762707
+436,SAP Developer,1693,JavaScript Developer,0.7090534025798972,"['java', 'javascript']",-253.75714828897333
+437,SAP Developer,1009,JavaScript Developer,0.38562100454085596,['javascript'],-533.4108671586715
+438,SAP Developer,1693,JavaScript Developer,0.41232414738602263,"['java', 'javascript', 'excel']",-889.1538932146829
+439,SAP Developer,1693,JavaScript Developer,0.3055402514435146,"['java', 'javascript', 'excel']",-351.7293871866295
+440,SAP Developer,1693,JavaScript Developer,0.34801498469646436,"['java', 'javascript', 'excel']",-113.8380769230769
+441,SAP Developer,1009,JavaScript Developer,0.5143452351087863,"['java', 'sql', 'javascript']",-126.58584745762707
+442,SAP Developer,1693,JavaScript Developer,0.7090534025798972,"['java', 'javascript']",-253.75714828897333
+443,SAP Developer,1009,JavaScript Developer,0.38562100454085596,['javascript'],-533.4108671586715
+444,SAP Developer,1693,JavaScript Developer,0.41232414738602263,"['java', 'javascript', 'excel']",-889.1538932146829
+445,SAP Developer,1693,JavaScript Developer,0.3055402514435146,"['java', 'javascript', 'excel']",-351.7293871866295
+446,SAP Developer,1693,JavaScript Developer,0.34801498469646436,"['java', 'javascript', 'excel']",-113.8380769230769
+447,SAP Developer,1009,JavaScript Developer,0.5143452351087863,"['java', 'sql', 'javascript']",-126.58584745762707
+448,SAP Developer,1693,JavaScript Developer,0.7090534025798972,"['java', 'javascript']",-253.75714828897333
+449,SAP Developer,1009,JavaScript Developer,0.38562100454085596,['javascript'],-533.4108671586715
+450,SAP Developer,1693,JavaScript Developer,0.41232414738602263,"['java', 'javascript', 'excel']",-889.1538932146829
+451,SAP Developer,1693,JavaScript Developer,0.3055402514435146,"['java', 'javascript', 'excel']",-351.7293871866295
+452,SAP Developer,1693,JavaScript Developer,0.34801498469646436,"['java', 'javascript', 'excel']",-113.8380769230769
+453,SAP Developer,1009,JavaScript Developer,0.5143452351087863,"['java', 'sql', 'javascript']",-126.58584745762707
+454,SAP Developer,1693,JavaScript Developer,0.7090534025798972,"['java', 'javascript']",-253.75714828897333
+455,Automation Testing,1390,Software Engineer,0.42596366444305506,"['aws', 'sql']",-301.2585526315789
+456,Automation Testing,666,Software Engineer,0.2929959797985714,"['sql', 'javascript']",-445.97383408071744
+457,Automation Testing,1737,Software Engineer,0.361786323097783,['python'],-423.95333333333326
+458,Automation Testing,1390,Software Engineer,0.535902095349939,"['aws', 'excel']",-713.7618672199169
+459,Automation Testing,333,Software Engineer,0.4676880996491198,[],-230.49950207468873
+460,Automation Testing,1390,Software Engineer,0.47012465856340535,"['aws', 'sql', 'excel']",-486.78499999999997
+461,Automation Testing,328,Software Engineer,0.3072549828618387,[],-69.60472527472523
+462,Automation Testing,1390,Software Engineer,0.535902095349939,"['aws', 'excel']",-713.7618672199169
+463,Automation Testing,333,Software Engineer,0.4676880996491198,[],-230.49950207468873
+464,Automation Testing,1390,Software Engineer,0.535902095349939,"['aws', 'excel']",-713.7618672199169
+465,Automation Testing,333,Software Engineer,0.4676880996491198,[],-230.49950207468873
+466,Automation Testing,1390,Software Engineer,0.535902095349939,"['aws', 'excel']",-713.7618672199169
+467,Automation Testing,333,Software Engineer,0.4676880996491198,[],-230.49950207468873
+468,Automation Testing,1390,Software Engineer,0.42596366444305506,"['aws', 'sql']",-301.2585526315789
+469,Automation Testing,666,Software Engineer,0.2929959797985714,"['sql', 'javascript']",-445.97383408071744
+470,Automation Testing,1737,Software Engineer,0.361786323097783,['python'],-423.95333333333326
+471,Automation Testing,1390,Software Engineer,0.535902095349939,"['aws', 'excel']",-713.7618672199169
+472,Automation Testing,333,Software Engineer,0.4676880996491198,[],-230.49950207468873
+473,Automation Testing,1390,Software Engineer,0.47012465856340535,"['aws', 'sql', 'excel']",-486.78499999999997
+474,Automation Testing,328,Software Engineer,0.3072549828618387,[],-69.60472527472523
+475,Automation Testing,1390,Software Engineer,0.535902095349939,"['aws', 'excel']",-713.7618672199169
+476,Automation Testing,333,Software Engineer,0.4676880996491198,[],-230.49950207468873
+477,Automation Testing,1390,Software Engineer,0.535902095349939,"['aws', 'excel']",-713.7618672199169
+478,Automation Testing,333,Software Engineer,0.4676880996491198,[],-230.49950207468873
+479,Automation Testing,1390,Software Engineer,0.535902095349939,"['aws', 'excel']",-713.7618672199169
+480,Automation Testing,333,Software Engineer,0.4676880996491198,[],-230.49950207468873
+481,Electrical Engineering,393,Django Developer,0.18718901409594368,"['sql', 'django', 'java', 'javascript', 'python']",-494.5207185628742
+482,Electrical Engineering,2162,PHP Developer,0.19457439782059932,[],-60.47
+483,Electrical Engineering,2145,Database Administrator,0.17259796231226127,"['sql', 'excel']",-452.57899999999995
+484,Electrical Engineering,891,Machine Learning,0.17582748654986272,"['machine learning', 'python', 'excel']",-73.05306451612898
+485,Electrical Engineering,938,Network Administrator,0.243115456631434,['sql'],-233.13959183673467
+486,Electrical Engineering,393,Django Developer,0.18718901409594368,"['sql', 'django', 'java', 'javascript', 'python']",-494.5207185628742
+487,Electrical Engineering,2162,PHP Developer,0.19457439782059932,[],-60.47
+488,Electrical Engineering,2145,Database Administrator,0.17259796231226127,"['sql', 'excel']",-452.57899999999995
+489,Electrical Engineering,891,Machine Learning,0.17582748654986272,"['machine learning', 'python', 'excel']",-73.05306451612898
+490,Electrical Engineering,938,Network Administrator,0.243115456631434,['sql'],-233.13959183673467
+491,Electrical Engineering,393,Django Developer,0.18718901409594368,"['sql', 'django', 'java', 'javascript', 'python']",-494.5207185628742
+492,Electrical Engineering,2162,PHP Developer,0.19457439782059932,[],-60.47
+493,Electrical Engineering,2145,Database Administrator,0.17259796231226127,"['sql', 'excel']",-452.57899999999995
+494,Electrical Engineering,891,Machine Learning,0.17582748654986272,"['machine learning', 'python', 'excel']",-73.05306451612898
+495,Electrical Engineering,938,Network Administrator,0.243115456631434,['sql'],-233.13959183673467
+496,Electrical Engineering,393,Django Developer,0.18718901409594368,"['sql', 'django', 'java', 'javascript', 'python']",-494.5207185628742
+497,Electrical Engineering,2162,PHP Developer,0.19457439782059932,[],-60.47
+498,Electrical Engineering,2145,Database Administrator,0.17259796231226127,"['sql', 'excel']",-452.57899999999995
+499,Electrical Engineering,891,Machine Learning,0.17582748654986272,"['machine learning', 'python', 'excel']",-73.05306451612898
+500,Electrical Engineering,938,Network Administrator,0.243115456631434,['sql'],-233.13959183673467
+501,Electrical Engineering,393,Django Developer,0.18718901409594368,"['sql', 'django', 'java', 'javascript', 'python']",-494.5207185628742
+502,Electrical Engineering,2162,PHP Developer,0.19457439782059932,[],-60.47
+503,Electrical Engineering,2145,Database Administrator,0.17259796231226127,"['sql', 'excel']",-452.57899999999995
+504,Electrical Engineering,891,Machine Learning,0.17582748654986272,"['machine learning', 'python', 'excel']",-73.05306451612898
+505,Electrical Engineering,938,Network Administrator,0.243115456631434,['sql'],-233.13959183673467
+506,Electrical Engineering,393,Django Developer,0.18718901409594368,"['sql', 'django', 'java', 'javascript', 'python']",-494.5207185628742
+507,Electrical Engineering,2162,PHP Developer,0.19457439782059932,[],-60.47
+508,Electrical Engineering,2145,Database Administrator,0.17259796231226127,"['sql', 'excel']",-452.57899999999995
+509,Electrical Engineering,891,Machine Learning,0.17582748654986272,"['machine learning', 'python', 'excel']",-73.05306451612898
+510,Electrical Engineering,938,Network Administrator,0.243115456631434,['sql'],-233.13959183673467
+511,Operations Manager,268,DevOps Engineer,0.36218167286171904,"['sap', 'aws', 'python', 'java']",-1225.1542291838416
+512,Operations Manager,268,DevOps Engineer,0.30192058872762906,"['sap', 'aws', 'python', 'java']",-678.2414864864863
+513,Operations Manager,2120,Database Administrator,0.3241726225997475,['excel'],-1250.707682926829
+514,Operations Manager,1957,Node js developer,0.26454168258911503,"['java', 'react', 'javascript']",-1466.8749175824175
+515,Operations Manager,268,DevOps Engineer,0.36218167286171904,"['sap', 'aws', 'python', 'java']",-1225.1542291838416
+516,Operations Manager,268,DevOps Engineer,0.30192058872762906,"['sap', 'aws', 'python', 'java']",-678.2414864864863
+517,Operations Manager,2120,Database Administrator,0.3241726225997475,['excel'],-1250.707682926829
+518,Operations Manager,1957,Node js developer,0.26454168258911503,"['java', 'react', 'javascript']",-1466.8749175824175
+519,Operations Manager,268,DevOps Engineer,0.36218167286171904,"['sap', 'aws', 'python', 'java']",-1225.1542291838416
+520,Operations Manager,268,DevOps Engineer,0.30192058872762906,"['sap', 'aws', 'python', 'java']",-678.2414864864863
+521,Operations Manager,2120,Database Administrator,0.3241726225997475,['excel'],-1250.707682926829
+522,Operations Manager,1957,Node js developer,0.26454168258911503,"['java', 'react', 'javascript']",-1466.8749175824175
+523,Operations Manager,268,DevOps Engineer,0.36218167286171904,"['sap', 'aws', 'python', 'java']",-1225.1542291838416
+524,Operations Manager,268,DevOps Engineer,0.30192058872762906,"['sap', 'aws', 'python', 'java']",-678.2414864864863
+525,Operations Manager,2120,Database Administrator,0.3241726225997475,['excel'],-1250.707682926829
+526,Operations Manager,1957,Node js developer,0.26454168258911503,"['java', 'react', 'javascript']",-1466.8749175824175
+527,Operations Manager,268,DevOps Engineer,0.36218167286171904,"['sap', 'aws', 'python', 'java']",-1225.1542291838416
+528,Operations Manager,268,DevOps Engineer,0.30192058872762906,"['sap', 'aws', 'python', 'java']",-678.2414864864863
+529,Operations Manager,2120,Database Administrator,0.3241726225997475,['excel'],-1250.707682926829
+530,Operations Manager,1957,Node js developer,0.26454168258911503,"['java', 'react', 'javascript']",-1466.8749175824175
+531,Operations Manager,268,DevOps Engineer,0.36218167286171904,"['sap', 'aws', 'python', 'java']",-1225.1542291838416
+532,Operations Manager,268,DevOps Engineer,0.30192058872762906,"['sap', 'aws', 'python', 'java']",-678.2414864864863
+533,Operations Manager,2120,Database Administrator,0.3241726225997475,['excel'],-1250.707682926829
+534,Operations Manager,1957,Node js developer,0.26454168258911503,"['java', 'react', 'javascript']",-1466.8749175824175
+535,Operations Manager,268,DevOps Engineer,0.36218167286171904,"['sap', 'aws', 'python', 'java']",-1225.1542291838416
+536,Operations Manager,268,DevOps Engineer,0.30192058872762906,"['sap', 'aws', 'python', 'java']",-678.2414864864863
+537,Operations Manager,2120,Database Administrator,0.3241726225997475,['excel'],-1250.707682926829
+538,Operations Manager,1957,Node js developer,0.26454168258911503,"['java', 'react', 'javascript']",-1466.8749175824175
+539,Operations Manager,268,DevOps Engineer,0.36218167286171904,"['sap', 'aws', 'python', 'java']",-1225.1542291838416
+540,Operations Manager,268,DevOps Engineer,0.30192058872762906,"['sap', 'aws', 'python', 'java']",-678.2414864864863
+541,Operations Manager,2120,Database Administrator,0.3241726225997475,['excel'],-1250.707682926829
+542,Operations Manager,1957,Node js developer,0.26454168258911503,"['java', 'react', 'javascript']",-1466.8749175824175
+543,Operations Manager,268,DevOps Engineer,0.36218167286171904,"['sap', 'aws', 'python', 'java']",-1225.1542291838416
+544,Operations Manager,268,DevOps Engineer,0.30192058872762906,"['sap', 'aws', 'python', 'java']",-678.2414864864863
+545,Operations Manager,2120,Database Administrator,0.3241726225997475,['excel'],-1250.707682926829
+546,Operations Manager,1957,Node js developer,0.26454168258911503,"['java', 'react', 'javascript']",-1466.8749175824175
+547,Operations Manager,268,DevOps Engineer,0.36218167286171904,"['sap', 'aws', 'python', 'java']",-1225.1542291838416
+548,Operations Manager,268,DevOps Engineer,0.30192058872762906,"['sap', 'aws', 'python', 'java']",-678.2414864864863
+549,Operations Manager,2120,Database Administrator,0.3241726225997475,['excel'],-1250.707682926829
+550,Operations Manager,1957,Node js developer,0.26454168258911503,"['java', 'react', 'javascript']",-1466.8749175824175
+551,Python Developer,1966,Backend Developer,0.2823855982555008,[],-290.77436305732476
+552,Python Developer,467,Backend Developer,0.21272629889626593,"['sql', 'django']",-33.94318181818181
+553,Python Developer,334,Django Developer,0.28084887773841016,"['sap', 'aws', 'django', 'react']",-69.98923076923074
+554,Python Developer,244,Django Developer,0.38113536441181634,"['java', 'javascript']",-293.3105015673981
+555,Python Developer,1570,JavaScript Developer,0.18216127137204818,"['java', 'aws', 'react', 'javascript']",-197.22760563380277
+556,Python Developer,334,Django Developer,0.27524545278631657,"['sap', 'aws', 'react']",-118.75844827586205
+557,Python Developer,1966,Backend Developer,0.2823855982555008,[],-290.77436305732476
+558,Python Developer,467,Backend Developer,0.21272629889626593,"['sql', 'django']",-33.94318181818181
+559,Python Developer,334,Django Developer,0.28084887773841016,"['sap', 'aws', 'django', 'react']",-69.98923076923074
+560,Python Developer,244,Django Developer,0.38113536441181634,"['java', 'javascript']",-293.3105015673981
+561,Python Developer,1570,JavaScript Developer,0.18216127137204818,"['java', 'aws', 'react', 'javascript']",-197.22760563380277
+562,Python Developer,334,Django Developer,0.27524545278631657,"['sap', 'aws', 'react']",-118.75844827586205
+563,Python Developer,1966,Backend Developer,0.2823855982555008,[],-290.77436305732476
+564,Python Developer,467,Backend Developer,0.21272629889626593,"['sql', 'django']",-33.94318181818181
+565,Python Developer,334,Django Developer,0.28084887773841016,"['sap', 'aws', 'django', 'react']",-69.98923076923074
+566,Python Developer,244,Django Developer,0.38113536441181634,"['java', 'javascript']",-293.3105015673981
+567,Python Developer,1570,JavaScript Developer,0.18216127137204818,"['java', 'aws', 'react', 'javascript']",-197.22760563380277
+568,Python Developer,334,Django Developer,0.27524545278631657,"['sap', 'aws', 'react']",-118.75844827586205
+569,Python Developer,1966,Backend Developer,0.2823855982555008,[],-290.77436305732476
+570,Python Developer,467,Backend Developer,0.21272629889626593,"['sql', 'django']",-33.94318181818181
+571,Python Developer,334,Django Developer,0.28084887773841016,"['sap', 'aws', 'django', 'react']",-69.98923076923074
+572,Python Developer,244,Django Developer,0.38113536441181634,"['java', 'javascript']",-293.3105015673981
+573,Python Developer,1570,JavaScript Developer,0.18216127137204818,"['java', 'aws', 'react', 'javascript']",-197.22760563380277
+574,Python Developer,334,Django Developer,0.27524545278631657,"['sap', 'aws', 'react']",-118.75844827586205
+575,Python Developer,1966,Backend Developer,0.2823855982555008,[],-290.77436305732476
+576,Python Developer,467,Backend Developer,0.21272629889626593,"['sql', 'django']",-33.94318181818181
+577,Python Developer,334,Django Developer,0.28084887773841016,"['sap', 'aws', 'django', 'react']",-69.98923076923074
+578,Python Developer,244,Django Developer,0.38113536441181634,"['java', 'javascript']",-293.3105015673981
+579,Python Developer,1570,JavaScript Developer,0.18216127137204818,"['java', 'aws', 'react', 'javascript']",-197.22760563380277
+580,Python Developer,334,Django Developer,0.27524545278631657,"['sap', 'aws', 'react']",-118.75844827586205
+581,Python Developer,1966,Backend Developer,0.2823855982555008,[],-290.77436305732476
+582,Python Developer,467,Backend Developer,0.21272629889626593,"['sql', 'django']",-33.94318181818181
+583,Python Developer,334,Django Developer,0.28084887773841016,"['sap', 'aws', 'django', 'react']",-69.98923076923074
+584,Python Developer,244,Django Developer,0.38113536441181634,"['java', 'javascript']",-293.3105015673981
+585,Python Developer,1570,JavaScript Developer,0.18216127137204818,"['java', 'aws', 'react', 'javascript']",-197.22760563380277
+586,Python Developer,334,Django Developer,0.27524545278631657,"['sap', 'aws', 'react']",-118.75844827586205
+587,Python Developer,1966,Backend Developer,0.2823855982555008,[],-290.77436305732476
+588,Python Developer,467,Backend Developer,0.21272629889626593,"['sql', 'django']",-33.94318181818181
+589,Python Developer,334,Django Developer,0.28084887773841016,"['sap', 'aws', 'django', 'react']",-69.98923076923074
+590,Python Developer,244,Django Developer,0.38113536441181634,"['java', 'javascript']",-293.3105015673981
+591,Python Developer,1570,JavaScript Developer,0.18216127137204818,"['java', 'aws', 'react', 'javascript']",-197.22760563380277
+592,Python Developer,334,Django Developer,0.27524545278631657,"['sap', 'aws', 'react']",-118.75844827586205
+593,Python Developer,1966,Backend Developer,0.2823855982555008,[],-290.77436305732476
+594,Python Developer,467,Backend Developer,0.21272629889626593,"['sql', 'django']",-33.94318181818181
+595,Python Developer,334,Django Developer,0.28084887773841016,"['sap', 'aws', 'django', 'react']",-69.98923076923074
+596,Python Developer,244,Django Developer,0.38113536441181634,"['java', 'javascript']",-293.3105015673981
+597,Python Developer,1570,JavaScript Developer,0.18216127137204818,"['java', 'aws', 'react', 'javascript']",-197.22760563380277
+598,Python Developer,334,Django Developer,0.27524545278631657,"['sap', 'aws', 'react']",-118.75844827586205
+599,DevOps Engineer,633,DevOps Engineer,0.3619930213128488,[],-457.56528907922905
+600,DevOps Engineer,2188,Software Engineer,0.20786958539150002,[],-114.4581818181818
+601,DevOps Engineer,1533,DevOps Engineer,0.383030993756524,"['aws', 'python']",-508.75127701375243
+602,DevOps Engineer,1939,Database Administrator,0.3503197268608768,[],-903.676945975744
+603,DevOps Engineer,1957,Node js developer,0.30277871200393425,"['java', 'react', 'javascript']",-414.7099999999999
+604,DevOps Engineer,2245,Backend Developer,0.28700924372362363,['excel'],-446.35508928571426
+605,DevOps Engineer,1737,Software Engineer,0.4370248626639843,"['java', 'javascript', 'python', 'excel']",-305.0255882352941
+606,DevOps Engineer,633,DevOps Engineer,0.3619930213128488,[],-457.56528907922905
+607,DevOps Engineer,2188,Software Engineer,0.20786958539150002,[],-114.4581818181818
+608,DevOps Engineer,1533,DevOps Engineer,0.383030993756524,"['aws', 'python']",-508.75127701375243
+609,DevOps Engineer,633,DevOps Engineer,0.3619930213128488,[],-457.56528907922905
+610,DevOps Engineer,2188,Software Engineer,0.20786958539150002,[],-114.4581818181818
+611,DevOps Engineer,1533,DevOps Engineer,0.383030993756524,"['aws', 'python']",-508.75127701375243
+612,DevOps Engineer,633,DevOps Engineer,0.3619930213128488,[],-457.56528907922905
+613,DevOps Engineer,2188,Software Engineer,0.20786958539150002,[],-114.4581818181818
+614,DevOps Engineer,1533,DevOps Engineer,0.383030993756524,"['aws', 'python']",-508.75127701375243
+615,DevOps Engineer,633,DevOps Engineer,0.3619930213128488,[],-457.56528907922905
+616,DevOps Engineer,2188,Software Engineer,0.20786958539150002,[],-114.4581818181818
+617,DevOps Engineer,1533,DevOps Engineer,0.383030993756524,"['aws', 'python']",-508.75127701375243
+618,DevOps Engineer,633,DevOps Engineer,0.3619930213128488,[],-457.56528907922905
+619,DevOps Engineer,2188,Software Engineer,0.20786958539150002,[],-114.4581818181818
+620,DevOps Engineer,1533,DevOps Engineer,0.383030993756524,"['aws', 'python']",-508.75127701375243
+621,DevOps Engineer,633,DevOps Engineer,0.3619930213128488,[],-457.56528907922905
+622,DevOps Engineer,2188,Software Engineer,0.20786958539150002,[],-114.4581818181818
+623,DevOps Engineer,1533,DevOps Engineer,0.383030993756524,"['aws', 'python']",-508.75127701375243
+624,DevOps Engineer,633,DevOps Engineer,0.3619930213128488,[],-457.56528907922905
+625,DevOps Engineer,2188,Software Engineer,0.20786958539150002,[],-114.4581818181818
+626,DevOps Engineer,1533,DevOps Engineer,0.383030993756524,"['aws', 'python']",-508.75127701375243
+627,DevOps Engineer,633,DevOps Engineer,0.3619930213128488,[],-457.56528907922905
+628,DevOps Engineer,2188,Software Engineer,0.20786958539150002,[],-114.4581818181818
+629,DevOps Engineer,1533,DevOps Engineer,0.383030993756524,"['aws', 'python']",-508.75127701375243
+630,DevOps Engineer,633,DevOps Engineer,0.3619930213128488,[],-457.56528907922905
+631,DevOps Engineer,2188,Software Engineer,0.20786958539150002,[],-114.4581818181818
+632,DevOps Engineer,1533,DevOps Engineer,0.383030993756524,"['aws', 'python']",-508.75127701375243
+633,DevOps Engineer,633,DevOps Engineer,0.3619930213128488,[],-457.56528907922905
+634,DevOps Engineer,2188,Software Engineer,0.20786958539150002,[],-114.4581818181818
+635,DevOps Engineer,1533,DevOps Engineer,0.383030993756524,"['aws', 'python']",-508.75127701375243
+636,DevOps Engineer,633,DevOps Engineer,0.3619930213128488,[],-457.56528907922905
+637,DevOps Engineer,2188,Software Engineer,0.20786958539150002,[],-114.4581818181818
+638,DevOps Engineer,1533,DevOps Engineer,0.383030993756524,"['aws', 'python']",-508.75127701375243
+639,DevOps Engineer,633,DevOps Engineer,0.3619930213128488,[],-457.56528907922905
+640,DevOps Engineer,2188,Software Engineer,0.20786958539150002,[],-114.4581818181818
+641,DevOps Engineer,1533,DevOps Engineer,0.383030993756524,"['aws', 'python']",-508.75127701375243
+642,DevOps Engineer,633,DevOps Engineer,0.3619930213128488,[],-457.56528907922905
+643,DevOps Engineer,2188,Software Engineer,0.20786958539150002,[],-114.4581818181818
+644,DevOps Engineer,1533,DevOps Engineer,0.383030993756524,"['aws', 'python']",-508.75127701375243
+645,DevOps Engineer,633,DevOps Engineer,0.3619930213128488,[],-457.56528907922905
+646,DevOps Engineer,2188,Software Engineer,0.20786958539150002,[],-114.4581818181818
+647,DevOps Engineer,1533,DevOps Engineer,0.383030993756524,"['aws', 'python']",-508.75127701375243
+648,DevOps Engineer,633,DevOps Engineer,0.3619930213128488,[],-457.56528907922905
+649,DevOps Engineer,2188,Software Engineer,0.20786958539150002,[],-114.4581818181818
+650,DevOps Engineer,1533,DevOps Engineer,0.383030993756524,"['aws', 'python']",-508.75127701375243
+651,DevOps Engineer,633,DevOps Engineer,0.3619930213128488,[],-457.56528907922905
+652,DevOps Engineer,2188,Software Engineer,0.20786958539150002,[],-114.4581818181818
+653,DevOps Engineer,1533,DevOps Engineer,0.383030993756524,"['aws', 'python']",-508.75127701375243
+654,Network Security Engineer,974,Network Administrator,0.51788317597871,['python'],-279.02052264808356
+655,Network Security Engineer,37,Network Administrator,0.4017054785060055,[],-463.1872164948453
+656,Network Security Engineer,2143,Network Administrator,0.5645679376446168,[],-247.82085365853655
+657,Network Security Engineer,974,Network Administrator,0.6082518218233292,['excel'],-364.4121951219512
+658,Network Security Engineer,1800,Network Administrator,0.5060976763280081,['excel'],-685.3482743362831
+659,Network Security Engineer,974,Network Administrator,0.51788317597871,['python'],-279.02052264808356
+660,Network Security Engineer,37,Network Administrator,0.4017054785060055,[],-463.1872164948453
+661,Network Security Engineer,2143,Network Administrator,0.5645679376446168,[],-247.82085365853655
+662,Network Security Engineer,974,Network Administrator,0.6082518218233292,['excel'],-364.4121951219512
+663,Network Security Engineer,1800,Network Administrator,0.5060976763280081,['excel'],-685.3482743362831
+664,Network Security Engineer,974,Network Administrator,0.51788317597871,['python'],-279.02052264808356
+665,Network Security Engineer,37,Network Administrator,0.4017054785060055,[],-463.1872164948453
+666,Network Security Engineer,2143,Network Administrator,0.5645679376446168,[],-247.82085365853655
+667,Network Security Engineer,974,Network Administrator,0.6082518218233292,['excel'],-364.4121951219512
+668,Network Security Engineer,1800,Network Administrator,0.5060976763280081,['excel'],-685.3482743362831
+669,Network Security Engineer,974,Network Administrator,0.51788317597871,['python'],-279.02052264808356
+670,Network Security Engineer,37,Network Administrator,0.4017054785060055,[],-463.1872164948453
+671,Network Security Engineer,2143,Network Administrator,0.5645679376446168,[],-247.82085365853655
+672,Network Security Engineer,974,Network Administrator,0.6082518218233292,['excel'],-364.4121951219512
+673,Network Security Engineer,1800,Network Administrator,0.5060976763280081,['excel'],-685.3482743362831
+674,Network Security Engineer,974,Network Administrator,0.51788317597871,['python'],-279.02052264808356
+675,Network Security Engineer,37,Network Administrator,0.4017054785060055,[],-463.1872164948453
+676,Network Security Engineer,2143,Network Administrator,0.5645679376446168,[],-247.82085365853655
+677,Network Security Engineer,974,Network Administrator,0.6082518218233292,['excel'],-364.4121951219512
+678,Network Security Engineer,1800,Network Administrator,0.5060976763280081,['excel'],-685.3482743362831
+679,PMO,600,Software Engineer,0.3542561651986458,['java'],-530.4432758620688
+680,PMO,321,Network Administrator,0.2975088115296276,[],-771.1549027237353
+681,PMO,1815,Machine Learning,0.2646934130532479,[],-269.5092857142857
+682,PMO,600,Software Engineer,0.3542561651986458,['java'],-530.4432758620688
+683,PMO,321,Network Administrator,0.2975088115296276,[],-771.1549027237353
+684,PMO,1815,Machine Learning,0.2646934130532479,[],-269.5092857142857
+685,PMO,600,Software Engineer,0.3542561651986458,['java'],-530.4432758620688
+686,PMO,321,Network Administrator,0.2975088115296276,[],-771.1549027237353
+687,PMO,1815,Machine Learning,0.2646934130532479,[],-269.5092857142857
+688,PMO,600,Software Engineer,0.3542561651986458,['java'],-530.4432758620688
+689,PMO,321,Network Administrator,0.2975088115296276,[],-771.1549027237353
+690,PMO,1815,Machine Learning,0.2646934130532479,[],-269.5092857142857
+691,PMO,600,Software Engineer,0.3542561651986458,['java'],-530.4432758620688
+692,PMO,321,Network Administrator,0.2975088115296276,[],-771.1549027237353
+693,PMO,1815,Machine Learning,0.2646934130532479,[],-269.5092857142857
+694,PMO,600,Software Engineer,0.3542561651986458,['java'],-530.4432758620688
+695,PMO,321,Network Administrator,0.2975088115296276,[],-771.1549027237353
+696,PMO,1815,Machine Learning,0.2646934130532479,[],-269.5092857142857
+697,PMO,600,Software Engineer,0.3542561651986458,['java'],-530.4432758620688
+698,PMO,321,Network Administrator,0.2975088115296276,[],-771.1549027237353
+699,PMO,1815,Machine Learning,0.2646934130532479,[],-269.5092857142857
+700,PMO,600,Software Engineer,0.3542561651986458,['java'],-530.4432758620688
+701,PMO,321,Network Administrator,0.2975088115296276,[],-771.1549027237353
+702,PMO,1815,Machine Learning,0.2646934130532479,[],-269.5092857142857
+703,PMO,600,Software Engineer,0.3542561651986458,['java'],-530.4432758620688
+704,PMO,321,Network Administrator,0.2975088115296276,[],-771.1549027237353
+705,PMO,1815,Machine Learning,0.2646934130532479,[],-269.5092857142857
+706,PMO,600,Software Engineer,0.3542561651986458,['java'],-530.4432758620688
+707,PMO,321,Network Administrator,0.2975088115296276,[],-771.1549027237353
+708,PMO,1815,Machine Learning,0.2646934130532479,[],-269.5092857142857
+709,Database,1939,Database Administrator,0.40675142469291103,['excel'],-470.2740083507306
+710,Database,1939,Database Administrator,0.4800834543495833,['excel'],-445.0589999999999
+711,Database,1939,Database Administrator,0.6008982177696042,['excel'],-578.9546587030716
+712,Database,1202,Database Administrator,0.4409672519021123,[],-318.1765189873417
+713,Database,436,Database Administrator,0.4853135857709002,"['python', 'excel']",-254.17121457489876
+714,Database,729,Database Administrator,0.4875701134659642,['excel'],-361.37953678474105
+715,Database,1776,Database Administrator,0.41035621422037205,[],-437.423820224719
+716,Database,1939,Database Administrator,0.5091619295841919,['excel'],-346.8081791907514
+717,Database,2206,Database Administrator,0.3057445658368635,"['aws', 'sql', 'excel']",-361.80669421487596
+718,Database,1202,Database Administrator,0.5740059616462562,[],-393.48071428571416
+719,Database,729,Database Administrator,0.3489236931561687,[],-198.08975609756092
+720,Database,1939,Database Administrator,0.40675142469291103,['excel'],-470.2740083507306
+721,Database,1939,Database Administrator,0.4800834543495833,['excel'],-445.0589999999999
+722,Database,1939,Database Administrator,0.6008982177696042,['excel'],-578.9546587030716
+723,Database,1202,Database Administrator,0.4409672519021123,[],-318.1765189873417
+724,Database,436,Database Administrator,0.4853135857709002,"['python', 'excel']",-254.17121457489876
+725,Database,729,Database Administrator,0.4875701134659642,['excel'],-361.37953678474105
+726,Database,1776,Database Administrator,0.41035621422037205,[],-437.423820224719
+727,Database,1939,Database Administrator,0.5091619295841919,['excel'],-346.8081791907514
+728,Database,2206,Database Administrator,0.3057445658368635,"['aws', 'sql', 'excel']",-361.80669421487596
+729,Database,1202,Database Administrator,0.5740059616462562,[],-393.48071428571416
+730,Database,729,Database Administrator,0.3489236931561687,[],-198.08975609756092
+731,Database,1939,Database Administrator,0.40675142469291103,['excel'],-470.2740083507306
+732,Database,1939,Database Administrator,0.4800834543495833,['excel'],-445.0589999999999
+733,Database,1939,Database Administrator,0.6008982177696042,['excel'],-578.9546587030716
+734,Database,1202,Database Administrator,0.4409672519021123,[],-318.1765189873417
+735,Database,436,Database Administrator,0.4853135857709002,"['python', 'excel']",-254.17121457489876
+736,Database,729,Database Administrator,0.4875701134659642,['excel'],-361.37953678474105
+737,Database,1776,Database Administrator,0.41035621422037205,[],-437.423820224719
+738,Database,1939,Database Administrator,0.5091619295841919,['excel'],-346.8081791907514
+739,Database,2206,Database Administrator,0.3057445658368635,"['aws', 'sql', 'excel']",-361.80669421487596
+740,Database,1202,Database Administrator,0.5740059616462562,[],-393.48071428571416
+741,Database,729,Database Administrator,0.3489236931561687,[],-198.08975609756092
+742,Hadoop,264,Machine Learning,0.32117865658169675,"['machine learning', 'excel']",-372.5653400503778
+743,Hadoop,1468,Software Engineer,0.32299584926429503,"['aws', 'machine learning', 'python', 'excel']",-135.4028571428571
+744,Hadoop,264,Machine Learning,0.36449930106636286,"['excel', 'java', 'aws', 'machine learning', 'python']",-264.6483271375464
+745,Hadoop,521,Machine Learning,0.32378682842889867,"['aws', 'javascript']",-327.2659025787965
+746,Hadoop,1468,Software Engineer,0.35822912151208913,"['java', 'aws', 'machine learning', 'excel']",-564.0016291161178
+747,Hadoop,264,Machine Learning,0.3042394679776216,"['machine learning', 'excel']",-149.78263157894733
+748,Hadoop,264,Machine Learning,0.3696076831699763,"['aws', 'machine learning', 'python', 'excel']",-497.5927272727272
+749,Hadoop,264,Machine Learning,0.32117865658169675,"['machine learning', 'excel']",-372.5653400503778
+750,Hadoop,1468,Software Engineer,0.32299584926429503,"['aws', 'machine learning', 'python', 'excel']",-135.4028571428571
+751,Hadoop,264,Machine Learning,0.36449930106636286,"['excel', 'java', 'aws', 'machine learning', 'python']",-264.6483271375464
+752,Hadoop,521,Machine Learning,0.32378682842889867,"['aws', 'javascript']",-327.2659025787965
+753,Hadoop,1468,Software Engineer,0.35822912151208913,"['java', 'aws', 'machine learning', 'excel']",-564.0016291161178
+754,Hadoop,264,Machine Learning,0.3042394679776216,"['machine learning', 'excel']",-149.78263157894733
+755,Hadoop,264,Machine Learning,0.3696076831699763,"['aws', 'machine learning', 'python', 'excel']",-497.5927272727272
+756,Hadoop,264,Machine Learning,0.32117865658169675,"['machine learning', 'excel']",-372.5653400503778
+757,Hadoop,1468,Software Engineer,0.32299584926429503,"['aws', 'machine learning', 'python', 'excel']",-135.4028571428571
+758,Hadoop,264,Machine Learning,0.36449930106636286,"['excel', 'java', 'aws', 'machine learning', 'python']",-264.6483271375464
+759,Hadoop,521,Machine Learning,0.32378682842889867,"['aws', 'javascript']",-327.2659025787965
+760,Hadoop,1468,Software Engineer,0.35822912151208913,"['java', 'aws', 'machine learning', 'excel']",-564.0016291161178
+761,Hadoop,264,Machine Learning,0.3042394679776216,"['machine learning', 'excel']",-149.78263157894733
+762,Hadoop,264,Machine Learning,0.3696076831699763,"['aws', 'machine learning', 'python', 'excel']",-497.5927272727272
+763,Hadoop,264,Machine Learning,0.32117865658169675,"['machine learning', 'excel']",-372.5653400503778
+764,Hadoop,1468,Software Engineer,0.32299584926429503,"['aws', 'machine learning', 'python', 'excel']",-135.4028571428571
+765,Hadoop,264,Machine Learning,0.36449930106636286,"['excel', 'java', 'aws', 'machine learning', 'python']",-264.6483271375464
+766,Hadoop,521,Machine Learning,0.32378682842889867,"['aws', 'javascript']",-327.2659025787965
+767,Hadoop,1468,Software Engineer,0.35822912151208913,"['java', 'aws', 'machine learning', 'excel']",-564.0016291161178
+768,Hadoop,264,Machine Learning,0.3042394679776216,"['machine learning', 'excel']",-149.78263157894733
+769,Hadoop,264,Machine Learning,0.3696076831699763,"['aws', 'machine learning', 'python', 'excel']",-497.5927272727272
+770,Hadoop,264,Machine Learning,0.32117865658169675,"['machine learning', 'excel']",-372.5653400503778
+771,Hadoop,1468,Software Engineer,0.32299584926429503,"['aws', 'machine learning', 'python', 'excel']",-135.4028571428571
+772,Hadoop,264,Machine Learning,0.36449930106636286,"['excel', 'java', 'aws', 'machine learning', 'python']",-264.6483271375464
+773,Hadoop,521,Machine Learning,0.32378682842889867,"['aws', 'javascript']",-327.2659025787965
+774,Hadoop,1468,Software Engineer,0.35822912151208913,"['java', 'aws', 'machine learning', 'excel']",-564.0016291161178
+775,Hadoop,264,Machine Learning,0.3042394679776216,"['machine learning', 'excel']",-149.78263157894733
+776,Hadoop,264,Machine Learning,0.3696076831699763,"['aws', 'machine learning', 'python', 'excel']",-497.5927272727272
+777,Hadoop,264,Machine Learning,0.32117865658169675,"['machine learning', 'excel']",-372.5653400503778
+778,Hadoop,1468,Software Engineer,0.32299584926429503,"['aws', 'machine learning', 'python', 'excel']",-135.4028571428571
+779,Hadoop,264,Machine Learning,0.36449930106636286,"['excel', 'java', 'aws', 'machine learning', 'python']",-264.6483271375464
+780,Hadoop,521,Machine Learning,0.32378682842889867,"['aws', 'javascript']",-327.2659025787965
+781,Hadoop,1468,Software Engineer,0.35822912151208913,"['java', 'aws', 'machine learning', 'excel']",-564.0016291161178
+782,Hadoop,264,Machine Learning,0.3042394679776216,"['machine learning', 'excel']",-149.78263157894733
+783,Hadoop,264,Machine Learning,0.3696076831699763,"['aws', 'machine learning', 'python', 'excel']",-497.5927272727272
+784,ETL Developer,1661,Backend Developer,0.33509105471456635,[],-363.20267605633796
+785,ETL Developer,1959,DevOps Engineer,0.2760007100042045,"['java', 'aws', 'python']",-527.2861363636363
+786,ETL Developer,1011,Database Administrator,0.24475164842524433,['excel'],-203.8316336633663
+787,ETL Developer,1011,Database Administrator,0.3380137645604549,[],-534.3873480662983
+788,ETL Developer,1661,Backend Developer,0.359673501802361,[],-88.29008849557519
+789,ETL Developer,1661,Backend Developer,0.33509105471456635,[],-363.20267605633796
+790,ETL Developer,1959,DevOps Engineer,0.2760007100042045,"['java', 'aws', 'python']",-527.2861363636363
+791,ETL Developer,1011,Database Administrator,0.24475164842524433,['excel'],-203.8316336633663
+792,ETL Developer,1011,Database Administrator,0.3380137645604549,[],-534.3873480662983
+793,ETL Developer,1661,Backend Developer,0.359673501802361,[],-88.29008849557519
+794,ETL Developer,1661,Backend Developer,0.33509105471456635,[],-363.20267605633796
+795,ETL Developer,1959,DevOps Engineer,0.2760007100042045,"['java', 'aws', 'python']",-527.2861363636363
+796,ETL Developer,1011,Database Administrator,0.24475164842524433,['excel'],-203.8316336633663
+797,ETL Developer,1011,Database Administrator,0.3380137645604549,[],-534.3873480662983
+798,ETL Developer,1661,Backend Developer,0.359673501802361,[],-88.29008849557519
+799,ETL Developer,1661,Backend Developer,0.33509105471456635,[],-363.20267605633796
+800,ETL Developer,1959,DevOps Engineer,0.2760007100042045,"['java', 'aws', 'python']",-527.2861363636363
+801,ETL Developer,1011,Database Administrator,0.24475164842524433,['excel'],-203.8316336633663
+802,ETL Developer,1011,Database Administrator,0.3380137645604549,[],-534.3873480662983
+803,ETL Developer,1661,Backend Developer,0.359673501802361,[],-88.29008849557519
+804,ETL Developer,1661,Backend Developer,0.33509105471456635,[],-363.20267605633796
+805,ETL Developer,1959,DevOps Engineer,0.2760007100042045,"['java', 'aws', 'python']",-527.2861363636363
+806,ETL Developer,1011,Database Administrator,0.24475164842524433,['excel'],-203.8316336633663
+807,ETL Developer,1011,Database Administrator,0.3380137645604549,[],-534.3873480662983
+808,ETL Developer,1661,Backend Developer,0.359673501802361,[],-88.29008849557519
+809,ETL Developer,1661,Backend Developer,0.33509105471456635,[],-363.20267605633796
+810,ETL Developer,1959,DevOps Engineer,0.2760007100042045,"['java', 'aws', 'python']",-527.2861363636363
+811,ETL Developer,1011,Database Administrator,0.24475164842524433,['excel'],-203.8316336633663
+812,ETL Developer,1011,Database Administrator,0.3380137645604549,[],-534.3873480662983
+813,ETL Developer,1661,Backend Developer,0.359673501802361,[],-88.29008849557519
+814,ETL Developer,1661,Backend Developer,0.33509105471456635,[],-363.20267605633796
+815,ETL Developer,1959,DevOps Engineer,0.2760007100042045,"['java', 'aws', 'python']",-527.2861363636363
+816,ETL Developer,1011,Database Administrator,0.24475164842524433,['excel'],-203.8316336633663
+817,ETL Developer,1011,Database Administrator,0.3380137645604549,[],-534.3873480662983
+818,ETL Developer,1661,Backend Developer,0.359673501802361,[],-88.29008849557519
+819,ETL Developer,1661,Backend Developer,0.33509105471456635,[],-363.20267605633796
+820,ETL Developer,1959,DevOps Engineer,0.2760007100042045,"['java', 'aws', 'python']",-527.2861363636363
+821,ETL Developer,1011,Database Administrator,0.24475164842524433,['excel'],-203.8316336633663
+822,ETL Developer,1011,Database Administrator,0.3380137645604549,[],-534.3873480662983
+823,ETL Developer,1661,Backend Developer,0.359673501802361,[],-88.29008849557519
+824,DotNet Developer,2106,Backend Developer,0.2701351811429481,['excel'],-79.59537815126045
+825,DotNet Developer,1570,JavaScript Developer,0.20974515956877887,"['aws', 'react']",-39.75652173913042
+826,DotNet Developer,2106,Backend Developer,0.31378985207617927,['excel'],-247.03643122676573
+827,DotNet Developer,1589,Backend Developer,0.3331539178110836,"['sap', 'sql', 'excel']",-51.35499999999999
+828,DotNet Developer,2106,Backend Developer,0.37735534720394504,['excel'],-409.25218309859156
+829,DotNet Developer,1349,Database Administrator,0.3192821113587588,"['aws', 'excel']",-848.0146324387397
+830,DotNet Developer,2106,Backend Developer,0.37753373786602795,[],-159.2223684210526
+831,DotNet Developer,2106,Backend Developer,0.2701351811429481,['excel'],-79.59537815126045
+832,DotNet Developer,1570,JavaScript Developer,0.20974515956877887,"['aws', 'react']",-39.75652173913042
+833,DotNet Developer,2106,Backend Developer,0.31378985207617927,['excel'],-247.03643122676573
+834,DotNet Developer,1589,Backend Developer,0.3331539178110836,"['sap', 'sql', 'excel']",-51.35499999999999
+835,DotNet Developer,2106,Backend Developer,0.37735534720394504,['excel'],-409.25218309859156
+836,DotNet Developer,1349,Database Administrator,0.3192821113587588,"['aws', 'excel']",-848.0146324387397
+837,DotNet Developer,2106,Backend Developer,0.37753373786602795,[],-159.2223684210526
+838,DotNet Developer,2106,Backend Developer,0.2701351811429481,['excel'],-79.59537815126045
+839,DotNet Developer,1570,JavaScript Developer,0.20974515956877887,"['aws', 'react']",-39.75652173913042
+840,DotNet Developer,2106,Backend Developer,0.31378985207617927,['excel'],-247.03643122676573
+841,DotNet Developer,1589,Backend Developer,0.3331539178110836,"['sap', 'sql', 'excel']",-51.35499999999999
+842,DotNet Developer,2106,Backend Developer,0.37735534720394504,['excel'],-409.25218309859156
+843,DotNet Developer,1349,Database Administrator,0.3192821113587588,"['aws', 'excel']",-848.0146324387397
+844,DotNet Developer,2106,Backend Developer,0.37753373786602795,[],-159.2223684210526
+845,DotNet Developer,2106,Backend Developer,0.2701351811429481,['excel'],-79.59537815126045
+846,DotNet Developer,1570,JavaScript Developer,0.20974515956877887,"['aws', 'react']",-39.75652173913042
+847,DotNet Developer,2106,Backend Developer,0.31378985207617927,['excel'],-247.03643122676573
+848,DotNet Developer,1589,Backend Developer,0.3331539178110836,"['sap', 'sql', 'excel']",-51.35499999999999
+849,DotNet Developer,2106,Backend Developer,0.37735534720394504,['excel'],-409.25218309859156
+850,DotNet Developer,1349,Database Administrator,0.3192821113587588,"['aws', 'excel']",-848.0146324387397
+851,DotNet Developer,2106,Backend Developer,0.37753373786602795,[],-159.2223684210526
+852,Blockchain,1525,Full Stack Developer,0.2775427060697393,[],-146.14253246753245
+853,Blockchain,1525,Full Stack Developer,0.31371175395304823,[],-253.0216666666666
+854,Blockchain,1827,Database Administrator,0.20317086060239192,[],-110.35794117647058
+855,Blockchain,1525,Full Stack Developer,0.3227332745033752,[],-323.3899722991689
+856,Blockchain,912,Software Engineer,0.22326772534076564,"['aws', 'python', 'sql']",-243.1285185185185
+857,Blockchain,1525,Full Stack Developer,0.2775427060697393,[],-146.14253246753245
+858,Blockchain,1525,Full Stack Developer,0.31371175395304823,[],-253.0216666666666
+859,Blockchain,1827,Database Administrator,0.20317086060239192,[],-110.35794117647058
+860,Blockchain,1525,Full Stack Developer,0.3227332745033752,[],-323.3899722991689
+861,Blockchain,912,Software Engineer,0.22326772534076564,"['aws', 'python', 'sql']",-243.1285185185185
+862,Blockchain,1525,Full Stack Developer,0.2775427060697393,[],-146.14253246753245
+863,Blockchain,1525,Full Stack Developer,0.31371175395304823,[],-253.0216666666666
+864,Blockchain,1827,Database Administrator,0.20317086060239192,[],-110.35794117647058
+865,Blockchain,1525,Full Stack Developer,0.3227332745033752,[],-323.3899722991689
+866,Blockchain,912,Software Engineer,0.22326772534076564,"['aws', 'python', 'sql']",-243.1285185185185
+867,Blockchain,1525,Full Stack Developer,0.2775427060697393,[],-146.14253246753245
+868,Blockchain,1525,Full Stack Developer,0.31371175395304823,[],-253.0216666666666
+869,Blockchain,1827,Database Administrator,0.20317086060239192,[],-110.35794117647058
+870,Blockchain,1525,Full Stack Developer,0.3227332745033752,[],-323.3899722991689
+871,Blockchain,912,Software Engineer,0.22326772534076564,"['aws', 'python', 'sql']",-243.1285185185185
+872,Blockchain,1525,Full Stack Developer,0.2775427060697393,[],-146.14253246753245
+873,Blockchain,1525,Full Stack Developer,0.31371175395304823,[],-253.0216666666666
+874,Blockchain,1827,Database Administrator,0.20317086060239192,[],-110.35794117647058
+875,Blockchain,1525,Full Stack Developer,0.3227332745033752,[],-323.3899722991689
+876,Blockchain,912,Software Engineer,0.22326772534076564,"['aws', 'python', 'sql']",-243.1285185185185
+877,Blockchain,1525,Full Stack Developer,0.2775427060697393,[],-146.14253246753245
+878,Blockchain,1525,Full Stack Developer,0.31371175395304823,[],-253.0216666666666
+879,Blockchain,1827,Database Administrator,0.20317086060239192,[],-110.35794117647058
+880,Blockchain,1525,Full Stack Developer,0.3227332745033752,[],-323.3899722991689
+881,Blockchain,912,Software Engineer,0.22326772534076564,"['aws', 'python', 'sql']",-243.1285185185185
+882,Blockchain,1525,Full Stack Developer,0.2775427060697393,[],-146.14253246753245
+883,Blockchain,1525,Full Stack Developer,0.31371175395304823,[],-253.0216666666666
+884,Blockchain,1827,Database Administrator,0.20317086060239192,[],-110.35794117647058
+885,Blockchain,1525,Full Stack Developer,0.3227332745033752,[],-323.3899722991689
+886,Blockchain,912,Software Engineer,0.22326772534076564,"['aws', 'python', 'sql']",-243.1285185185185
+887,Blockchain,1525,Full Stack Developer,0.2775427060697393,[],-146.14253246753245
+888,Blockchain,1525,Full Stack Developer,0.31371175395304823,[],-253.0216666666666
+889,Blockchain,1827,Database Administrator,0.20317086060239192,[],-110.35794117647058
+890,Blockchain,1525,Full Stack Developer,0.3227332745033752,[],-323.3899722991689
+891,Blockchain,912,Software Engineer,0.22326772534076564,"['aws', 'python', 'sql']",-243.1285185185185
+892,Testing,1550,PHP Developer,0.1670433584703523,[],-67.27344262295077
+893,Testing,862,Node js developer,0.31576623148717453,[],-173.5043455497382
+894,Testing,1390,Software Engineer,0.29829002324154175,"['aws', 'sql']",-191.0083944954128
+895,Testing,940,Software Engineer,0.2734541086776649,[],-217.40717703349281
+896,Testing,1390,Software Engineer,0.27762852800865895,"['aws', 'sql', 'excel']",-303.4518354430379
+897,Testing,321,Network Administrator,0.21728441835060294,['sap'],-70.11827586206896
+898,Testing,333,Software Engineer,0.35103059220778665,[],-179.1217326732673
+899,Testing,1550,PHP Developer,0.1670433584703523,[],-67.27344262295077
+900,Testing,862,Node js developer,0.31576623148717453,[],-173.5043455497382
+901,Testing,1390,Software Engineer,0.29829002324154175,"['aws', 'sql']",-191.0083944954128
+902,Testing,940,Software Engineer,0.2734541086776649,[],-217.40717703349281
+903,Testing,1390,Software Engineer,0.27762852800865895,"['aws', 'sql', 'excel']",-303.4518354430379
+904,Testing,321,Network Administrator,0.21728441835060294,['sap'],-70.11827586206896
+905,Testing,333,Software Engineer,0.35103059220778665,[],-179.1217326732673
+906,Testing,1550,PHP Developer,0.1670433584703523,[],-67.27344262295077
+907,Testing,862,Node js developer,0.31576623148717453,[],-173.5043455497382
+908,Testing,1390,Software Engineer,0.29829002324154175,"['aws', 'sql']",-191.0083944954128
+909,Testing,940,Software Engineer,0.2734541086776649,[],-217.40717703349281
+910,Testing,1390,Software Engineer,0.27762852800865895,"['aws', 'sql', 'excel']",-303.4518354430379
+911,Testing,321,Network Administrator,0.21728441835060294,['sap'],-70.11827586206896
+912,Testing,333,Software Engineer,0.35103059220778665,[],-179.1217326732673
+913,Testing,1550,PHP Developer,0.1670433584703523,[],-67.27344262295077
+914,Testing,862,Node js developer,0.31576623148717453,[],-173.5043455497382
+915,Testing,1390,Software Engineer,0.29829002324154175,"['aws', 'sql']",-191.0083944954128
+916,Testing,940,Software Engineer,0.2734541086776649,[],-217.40717703349281
+917,Testing,1390,Software Engineer,0.27762852800865895,"['aws', 'sql', 'excel']",-303.4518354430379
+918,Testing,321,Network Administrator,0.21728441835060294,['sap'],-70.11827586206896
+919,Testing,333,Software Engineer,0.35103059220778665,[],-179.1217326732673
+920,Testing,1550,PHP Developer,0.1670433584703523,[],-67.27344262295077
+921,Testing,862,Node js developer,0.31576623148717453,[],-173.5043455497382
+922,Testing,1390,Software Engineer,0.29829002324154175,"['aws', 'sql']",-191.0083944954128
+923,Testing,940,Software Engineer,0.2734541086776649,[],-217.40717703349281
+924,Testing,1390,Software Engineer,0.27762852800865895,"['aws', 'sql', 'excel']",-303.4518354430379
+925,Testing,321,Network Administrator,0.21728441835060294,['sap'],-70.11827586206896
+926,Testing,333,Software Engineer,0.35103059220778665,[],-179.1217326732673
+927,Testing,1550,PHP Developer,0.1670433584703523,[],-67.27344262295077
+928,Testing,862,Node js developer,0.31576623148717453,[],-173.5043455497382
+929,Testing,1390,Software Engineer,0.29829002324154175,"['aws', 'sql']",-191.0083944954128
+930,Testing,940,Software Engineer,0.2734541086776649,[],-217.40717703349281
+931,Testing,1390,Software Engineer,0.27762852800865895,"['aws', 'sql', 'excel']",-303.4518354430379
+932,Testing,321,Network Administrator,0.21728441835060294,['sap'],-70.11827586206896
+933,Testing,333,Software Engineer,0.35103059220778665,[],-179.1217326732673
+934,Testing,1550,PHP Developer,0.1670433584703523,[],-67.27344262295077
+935,Testing,862,Node js developer,0.31576623148717453,[],-173.5043455497382
+936,Testing,1390,Software Engineer,0.29829002324154175,"['aws', 'sql']",-191.0083944954128
+937,Testing,940,Software Engineer,0.2734541086776649,[],-217.40717703349281
+938,Testing,1390,Software Engineer,0.27762852800865895,"['aws', 'sql', 'excel']",-303.4518354430379
+939,Testing,321,Network Administrator,0.21728441835060294,['sap'],-70.11827586206896
+940,Testing,333,Software Engineer,0.35103059220778665,[],-179.1217326732673
+941,Testing,1550,PHP Developer,0.1670433584703523,[],-67.27344262295077
+942,Testing,862,Node js developer,0.31576623148717453,[],-173.5043455497382
+943,Testing,1390,Software Engineer,0.29829002324154175,"['aws', 'sql']",-191.0083944954128
+944,Testing,940,Software Engineer,0.2734541086776649,[],-217.40717703349281
+945,Testing,1390,Software Engineer,0.27762852800865895,"['aws', 'sql', 'excel']",-303.4518354430379
+946,Testing,321,Network Administrator,0.21728441835060294,['sap'],-70.11827586206896
+947,Testing,333,Software Engineer,0.35103059220778665,[],-179.1217326732673
+948,Testing,1550,PHP Developer,0.1670433584703523,[],-67.27344262295077
+949,Testing,862,Node js developer,0.31576623148717453,[],-173.5043455497382
+950,Testing,1390,Software Engineer,0.29829002324154175,"['aws', 'sql']",-191.0083944954128
+951,Testing,940,Software Engineer,0.2734541086776649,[],-217.40717703349281
+952,Testing,1390,Software Engineer,0.27762852800865895,"['aws', 'sql', 'excel']",-303.4518354430379
+953,Testing,321,Network Administrator,0.21728441835060294,['sap'],-70.11827586206896
+954,Testing,333,Software Engineer,0.35103059220778665,[],-179.1217326732673
+955,Testing,1550,PHP Developer,0.1670433584703523,[],-67.27344262295077
+956,Testing,862,Node js developer,0.31576623148717453,[],-173.5043455497382
+957,Testing,1390,Software Engineer,0.29829002324154175,"['aws', 'sql']",-191.0083944954128
+958,Testing,940,Software Engineer,0.2734541086776649,[],-217.40717703349281
+959,Testing,1390,Software Engineer,0.27762852800865895,"['aws', 'sql', 'excel']",-303.4518354430379
+960,Testing,321,Network Administrator,0.21728441835060294,['sap'],-70.11827586206896
+961,Testing,333,Software Engineer,0.35103059220778665,[],-179.1217326732673
