@@ -3,6 +3,6 @@ pandas
 scikit-learn
 nltk
 textstat
-numpy
-matplotlib
+PyPDF2
+
 
