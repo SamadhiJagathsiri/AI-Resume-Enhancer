@@ -6,6 +6,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from nltk.corpus import stopwords
 import textstat
+import PyPDF2
 
 # -------------------------------
 # Setup
@@ -16,10 +17,10 @@ STOPWORDS = set(stopwords.words("english"))
 st.set_page_config(page_title="AI Resume Enhancer", layout="wide")
 
 st.title("📄 AI Resume Enhancer")
-st.write("Upload your resume and a job description to get a **match score, missing skills, and readability feedback.**")
+st.write("Upload your resume and a job description (PDF or TXT) to get a **match score, missing skills, and readability feedback.**")
 
 # -------------------------------
-# Text cleaning
+# Helpers
 # -------------------------------
 def clean_text(text):
     text = re.sub(r"[^a-zA-Z\s]", " ", str(text))
@@ -27,7 +28,20 @@ def clean_text(text):
     words = [w for w in text.split() if w not in STOPWORDS]
     return " ".join(words)
 
-# Simple skills list (you can expand this)
+def extract_text_from_file(file):
+    """Supports TXT and PDF upload."""
+    if file.name.endswith(".txt"):
+        return file.read().decode("utf-8")
+    elif file.name.endswith(".pdf"):
+        reader = PyPDF2.PdfReader(file)
+        text = ""
+        for page in reader.pages:
+            text += page.extract_text() + " "
+        return text
+    else:
+        return ""
+
+# Skills dictionary (expandable)
 SKILLS = [
     "python", "java", "c++", "sql", "excel", "tableau", "powerbi",
     "tensorflow", "pytorch", "nlp", "machine learning", "deep learning",
@@ -40,17 +54,17 @@ def extract_missing_skills(resume_text, job_text):
     return [skill for skill in SKILLS if skill in job_words and skill not in resume_words]
 
 # -------------------------------
-# File upload section
+# File Uploads
 # -------------------------------
-resume_file = st.file_uploader("📑 Upload Resume (TXT only)", type=["txt"])
-job_file = st.file_uploader("💼 Upload Job Description (TXT only)", type=["txt"])
+resume_file = st.file_uploader("📑 Upload Resume (PDF/TXT)", type=["txt", "pdf"])
+job_file = st.file_uploader("💼 Upload Job Description (PDF/TXT)", type=["txt", "pdf"])
 
 if resume_file and job_file:
-    # Read text
-    resume_text = resume_file.read().decode("utf-8")
-    job_text = job_file.read().decode("utf-8")
+    # Extract text
+    resume_text = extract_text_from_file(resume_file)
+    job_text = extract_text_from_file(job_file)
 
-    # Clean text
+    # Clean
     clean_resume = clean_text(resume_text)
     clean_job = clean_text(job_text)
 
@@ -66,7 +80,7 @@ if resume_file and job_file:
     readability = textstat.flesch_reading_ease(resume_text)
 
     # -------------------------------
-    # Results Dashboard
+    # Results
     # -------------------------------
     st.subheader("✅ Results")
 
@@ -81,11 +95,11 @@ if resume_file and job_file:
     else:
         st.success("🎉 No major skills missing!")
 
-    st.write("### 📝 Resume Preview")
-    st.text_area("Your Resume", resume_text, height=200)
+    st.write("### 📝 Resume Preview (first 1000 chars)")
+    st.text(resume_text[:1000] + "..." if len(resume_text) > 1000 else resume_text)
 
-    st.write("### 💼 Job Description Preview")
-    st.text_area("Job Description", job_text, height=200)
+    st.write("### 💼 Job Description Preview (first 1000 chars)")
+    st.text(job_text[:1000] + "..." if len(job_text) > 1000 else job_text)
 
 else:
     st.info("⬆️ Please upload both files to see the analysis.")
