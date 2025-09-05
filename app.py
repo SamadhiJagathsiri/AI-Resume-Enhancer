@@ -1,105 +1,138 @@
+# app.py
 import streamlit as st
 import pandas as pd
-import re
-import nltk
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-from nltk.corpus import stopwords
-import textstat
 import PyPDF2
+import docx
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
+from textstat import flesch_reading_ease, gunning_fog, smog_index
 
 # -------------------------------
-# Setup
+# Helper Functions
 # -------------------------------
-nltk.download("stopwords")
-STOPWORDS = set(stopwords.words("english"))
 
-st.set_page_config(page_title="AI Resume Enhancer", layout="wide")
+SKILLS_LIST = ["Python", "SQL", "Excel", "TensorFlow", "AWS", "JavaScript", "Java", "R", "PowerBI", "Tableau"]
 
-st.title("📄 AI Resume Enhancer")
-st.write("Upload your resume and a job description (PDF or TXT) to get a **match score, missing skills, and readability feedback.**")
-
-# -------------------------------
-# Helpers
-# -------------------------------
-def clean_text(text):
-    text = re.sub(r"[^a-zA-Z\s]", " ", str(text))
-    text = text.lower()
-    words = [w for w in text.split() if w not in STOPWORDS]
-    return " ".join(words)
-
-def extract_text_from_file(file):
-    """Supports TXT and PDF upload."""
-    if file.name.endswith(".txt"):
-        return file.read().decode("utf-8")
-    elif file.name.endswith(".pdf"):
+def extract_text(file):
+    """Extract text from PDF, DOCX, or TXT file."""
+    if file.type == "application/pdf":
         reader = PyPDF2.PdfReader(file)
-        text = ""
-        for page in reader.pages:
-            text += page.extract_text() + " "
+        text = "".join([page.extract_text() for page in reader.pages])
         return text
+    elif file.type == "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
+        doc = docx.Document(file)
+        text = " ".join([para.text for para in doc.paragraphs])
+        return text
+    elif file.type == "text/plain":
+        return file.getvalue().decode("utf-8")
     else:
         return ""
 
-# Skills dictionary (expandable)
-SKILLS = [
-    "python", "java", "c++", "sql", "excel", "tableau", "powerbi",
-    "tensorflow", "pytorch", "nlp", "machine learning", "deep learning",
-    "flask", "django", "react", "javascript", "html", "css", "aws", "azure"
-]
+def find_missing_skills(resume_text, job_text):
+    """Return missing skills compared to job description."""
+    job_skills = [s for s in SKILLS_LIST if s.lower() in job_text.lower()]
+    resume_skills = [s for s in SKILLS_LIST if s.lower() in resume_text.lower()]
+    missing = list(set(job_skills) - set(resume_skills))
+    return missing
 
-def extract_missing_skills(resume_text, job_text):
-    resume_words = set(resume_text.lower().split())
-    job_words = set(job_text.lower().split())
-    return [skill for skill in SKILLS if skill in job_words and skill not in resume_words]
+def calculate_readability(text):
+    """Return multiple readability scores."""
+    return {
+        "Flesch Reading Ease": round(flesch_reading_ease(text), 2),
+        "Gunning Fog Index": round(gunning_fog(text), 2),
+        "SMOG Index": round(smog_index(text), 2)
+    }
+
+def compute_similarity(resume_text, job_text):
+    """Compute semantic similarity using Sentence-BERT."""
+    model = SentenceTransformer('all-MiniLM-L6-v2')
+    embeddings = model.encode([resume_text, job_text])
+    sim = cosine_similarity([embeddings[0]], [embeddings[1]])[0][0]
+    return sim
 
 # -------------------------------
-# File Uploads
+# Streamlit App
 # -------------------------------
-resume_file = st.file_uploader("📑 Upload Resume (PDF/TXT)", type=["txt", "pdf"])
-job_file = st.file_uploader("💼 Upload Job Description (PDF/TXT)", type=["txt", "pdf"])
+
+# Page Config
+st.set_page_config(
+    page_title="AI Resume Enhancer",
+    layout="wide",
+    page_icon="📄"
+)
+
+# Background Color
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background: linear-gradient(135deg, #f0f9ff, #e0f7fa);
+    }
+    .stFileUploader > div>div {
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Title
+st.title("📄 AI Resume Enhancer")
+st.markdown("Upload your resume and a job description to get a **match score**, **missing skills**, and **readability feedback**.")
+
+# Upload Section
+st.subheader("📑 Upload Resume & Job Description")
+resume_file = st.file_uploader("Upload Resume (PDF, DOCX, TXT)", type=["pdf","docx","txt"])
+job_file = st.file_uploader("Upload Job Description (PDF, DOCX, TXT)", type=["pdf","docx","txt"])
 
 if resume_file and job_file:
-    # Extract text
-    resume_text = extract_text_from_file(resume_file)
-    job_text = extract_text_from_file(job_file)
+    with st.spinner("Processing files..."):
+        resume_text = extract_text(resume_file)
+        job_text = extract_text(job_file)
 
-    # Clean
-    clean_resume = clean_text(resume_text)
-    clean_job = clean_text(job_text)
+        # Semantic match score
+        match_score = compute_similarity(resume_text, job_text)
 
-    # TF-IDF similarity
-    vectorizer = TfidfVectorizer(max_features=1000)
-    vectors = vectorizer.fit_transform([clean_resume, clean_job])
-    similarity = cosine_similarity(vectors[0:1], vectors[1:2])[0][0]
+        # Missing skills
+        missing_skills = find_missing_skills(resume_text, job_text)
 
-    # Missing skills
-    missing_skills = extract_missing_skills(clean_resume, clean_job)
-
-    # Readability
-    readability = textstat.flesch_reading_ease(resume_text)
+        # Readability metrics
+        readability = calculate_readability(resume_text)
 
     # -------------------------------
-    # Results
+    # Layout: Columns for metrics
     # -------------------------------
-    st.subheader("✅ Results")
+    st.subheader("💼 Resume Analysis")
 
     col1, col2, col3 = st.columns(3)
-    col1.metric("Match Score", f"{similarity*100:.2f}%")
-    col2.metric("Missing Skills", len(missing_skills))
-    col3.metric("Readability", f"{readability:.2f}")
 
-    st.write("### 📌 Missing Skills / Keywords")
+    col1.metric("Match Score", f"{match_score*100:.2f}%")
+    col2.subheader("Missing Skills")
     if missing_skills:
-        st.write(", ".join(missing_skills))
+        col2.write(", ".join(missing_skills))
     else:
-        st.success("🎉 No major skills missing!")
+        col2.success("No missing skills! 🎉")
+    col3.subheader("Readability")
+    col3.json(readability)
 
-    st.write("### 📝 Resume Preview (first 1000 chars)")
-    st.text(resume_text[:1000] + "..." if len(resume_text) > 1000 else resume_text)
+    # -------------------------------
+    # Bar Chart for Missing Skills Count
+    # -------------------------------
+    st.subheader("📊 Missing Skills Visualization")
+    st.bar_chart([len(missing_skills)])
 
-    st.write("### 💼 Job Description Preview (first 1000 chars)")
-    st.text(job_text[:1000] + "..." if len(job_text) > 1000 else job_text)
+    # -------------------------------
+    # Optional Tabs for Resume & Job Text Preview
+    # -------------------------------
+    st.subheader("📝 Text Preview")
+    tabs = st.tabs(["Resume Text", "Job Description Text"])
+    with tabs[0]:
+        st.text_area("Resume Content", resume_text, height=200)
+    with tabs[1]:
+        st.text_area("Job Description Content", job_text, height=200)
+
+    st.info("✅ Tip: Add missing skills to increase match score!")
 
 else:
-    st.info("⬆️ Please upload both files to see the analysis.")
+    st.warning("⬆️ Please upload both files to see the analysis.")
