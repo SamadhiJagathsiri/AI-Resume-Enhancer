@@ -61,78 +61,110 @@ st.set_page_config(
     page_icon="📄"
 )
 
-# Background Color
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background: linear-gradient(135deg, #f0f9ff, #e0f7fa);
-    }
-    .stFileUploader > div>div {
-        background-color: #ffffff;
-        border-radius: 10px;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# -------------------------------
+# Theme Toggle
+# -------------------------------
+mode = st.radio("🌗 Choose Theme", ["Light", "Dark"], horizontal=True)
+
+if mode == "Light":
+    st.markdown(
+        """
+        <style>
+        .stApp {
+            background: #fdfdfd;
+            color: #000000 !important;
+        }
+        .stFileUploader > div>div {
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+        h1, h2, h3, h4, h5, h6, p, div {
+            color: #000000 !important;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+else:  # Dark Mode
+    st.markdown(
+        """
+        <style>
+        .stApp {
+            background: #121212;
+            color: #ffffff !important;
+        }
+        .stFileUploader > div>div {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+        }
+        h1, h2, h3, h4, h5, h6, p, div {
+            color: #ffffff !important;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
 
 # Title
 st.title("📄 AI Resume Enhancer")
-st.markdown("Upload your resume and a job description to get a **match score**, **missing skills**, and **readability feedback**.")
+st.markdown("Upload your resume and a job description, then click **Analyse Resume** to see results.")
 
 # Upload Section
 st.subheader("📑 Upload Resume & Job Description")
 resume_file = st.file_uploader("Upload Resume (PDF, DOCX, TXT)", type=["pdf","docx","txt"])
 job_file = st.file_uploader("Upload Job Description (PDF, DOCX, TXT)", type=["pdf","docx","txt"])
 
+# -------------------------------
+# Analyse Button
+# -------------------------------
 if resume_file and job_file:
-    with st.spinner("Processing files..."):
-        resume_text = extract_text(resume_file)
-        job_text = extract_text(job_file)
+    if st.button("🔍 Analyse Resume"):
+        with st.spinner("Processing files..."):
+            resume_text = extract_text(resume_file)
+            job_text = extract_text(job_file)
 
-        # Semantic match score
-        match_score = compute_similarity(resume_text, job_text)
+            # Semantic match score
+            match_score = compute_similarity(resume_text, job_text)
 
-        # Missing skills
-        missing_skills = find_missing_skills(resume_text, job_text)
+            # Missing skills
+            missing_skills = find_missing_skills(resume_text, job_text)
 
-        # Readability metrics
-        readability = calculate_readability(resume_text)
+            # Readability metrics
+            readability = calculate_readability(resume_text)
 
-    # -------------------------------
-    # Layout: Columns for metrics
-    # -------------------------------
-    st.subheader("💼 Resume Analysis")
+        # -------------------------------
+        # Layout: Columns for metrics
+        # -------------------------------
+        st.subheader("💼 Resume Analysis")
 
-    col1, col2, col3 = st.columns(3)
+        col1, col2, col3 = st.columns(3)
 
-    col1.metric("Match Score", f"{match_score*100:.2f}%")
-    col2.subheader("Missing Skills")
-    if missing_skills:
-        col2.write(", ".join(missing_skills))
-    else:
-        col2.success("No missing skills! 🎉")
-    col3.subheader("Readability")
-    col3.json(readability)
+        col1.metric("Match Score", f"{match_score*100:.2f}%")
+        col2.subheader("Missing Skills")
+        if missing_skills:
+            col2.write(", ".join(missing_skills))
+        else:
+            col2.success("No missing skills! 🎉")
+        col3.subheader("Readability")
+        col3.json(readability)
 
-    # -------------------------------
-    # Bar Chart for Missing Skills Count
-    # -------------------------------
-    st.subheader("📊 Missing Skills Visualization")
-    st.bar_chart([len(missing_skills)])
+        # -------------------------------
+        # Bar Chart for Missing Skills Count
+        # -------------------------------
+        st.subheader("📊 Missing Skills Visualization")
+        st.bar_chart([len(missing_skills)])
 
-    # -------------------------------
-    # Optional Tabs for Resume & Job Text Preview
-    # -------------------------------
-    st.subheader("📝 Text Preview")
-    tabs = st.tabs(["Resume Text", "Job Description Text"])
-    with tabs[0]:
-        st.text_area("Resume Content", resume_text, height=200)
-    with tabs[1]:
-        st.text_area("Job Description Content", job_text, height=200)
+        # -------------------------------
+        # Optional Tabs for Resume & Job Text Preview
+        # -------------------------------
+        st.subheader("📝 Text Preview")
+        tabs = st.tabs(["Resume Text", "Job Description Text"])
+        with tabs[0]:
+            st.text_area("Resume Content", resume_text, height=200)
+        with tabs[1]:
+            st.text_area("Job Description Content", job_text, height=200)
 
-    st.info("✅ Tip: Add missing skills to increase match score!")
+        st.info("✅ Tip: Add missing skills to increase match score!")
 
 else:
-    st.warning("⬆️ Please upload both files to see the analysis.")
+    st.warning("⬆️ Please upload both files before analysis.")
