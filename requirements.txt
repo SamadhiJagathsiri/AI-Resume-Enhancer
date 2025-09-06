@@ -1,8 +1,10 @@
 streamlit
-pandas
-scikit-learn
-nltk
-textstat
 PyPDF2
-
+python-docx
+sentence-transformers
+scikit-learn
+textstat
+torch
+torchvision
+torchaudio
 
